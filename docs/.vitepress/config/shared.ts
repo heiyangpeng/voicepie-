@@ -72,6 +72,6 @@ export const shared = defineConfig({
       }
     },
 
-    carbonAds: { code: 'CEBDT27Y', placement: 'vuejsorg' }
+    // carbonAds: { code: 'CEBDT27Y', placement: 'vuejsorg' } 广告
   }
 })

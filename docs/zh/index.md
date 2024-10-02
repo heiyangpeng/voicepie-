@@ -17,7 +17,7 @@ hero:
       link: /zh/guide/getting-started
     - theme: alt
       text: 下载
-      link: https://github.com/vuejs/vitepress
+      link: /install
   image:
       src: /vitepress-logo-large.webp
       alt: VitePress

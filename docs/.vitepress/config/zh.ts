@@ -202,3 +202,4 @@ export const search: DefaultTheme.AlgoliaSearchOptions['locales'] = {
     }
   }
 }
+
