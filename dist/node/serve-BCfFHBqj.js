@@ -50758,4 +50758,3 @@ async function createServer(root = process.cwd(), serverOptions = {}, recreateSe
 }
 
 export { ScaffoldThemeType as S, getDefaultExportFromCjs as a, build as b, createMarkdownRenderer as c, defineLoader as d, defineConfig as e, fs$a as f, glob as g, defineConfigWithTheme as h, resolveUserConfig as i, mergeConfig as j, resolveSiteData as k, resolvePages as l, matter$1 as m, init as n, serve as o, createServer as p, c$1 as q, resolveConfig as r, scaffold as s, clearCache as t, version as v };
-//# sourceMappingURL=serve-BCfFHBqj.js.map

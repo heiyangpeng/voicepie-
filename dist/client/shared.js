@@ -150,4 +150,3 @@ export function escapeHtml(str) {
         .replace(/"/g, '&quot;')
         .replace(/&(?![\w#]+;)/g, '&amp;');
 }
-//# sourceMappingURL=shared.js.map

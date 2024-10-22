@@ -97,4 +97,3 @@ export function usePrefetch() {
         observer && observer.disconnect();
     });
 }
-//# sourceMappingURL=preFetch.js.map

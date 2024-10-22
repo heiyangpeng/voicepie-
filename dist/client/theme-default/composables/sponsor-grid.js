@@ -92,4 +92,3 @@ function removeSlots(el, count) {
         el.removeChild(el.lastElementChild);
     }
 }
-//# sourceMappingURL=sponsor-grid.js.map

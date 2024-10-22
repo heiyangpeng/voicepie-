@@ -7,4 +7,3 @@ export { useRoute, useRouter } from './app/router';
 export { inBrowser, onContentUpdated, defineClientComponent, withBase, getScrollOffset, _escapeHtml } from './app/utils';
 // components
 export { Content } from './app/components/Content';
-//# sourceMappingURL=index.js.map

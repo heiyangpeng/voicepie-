@@ -87,4 +87,3 @@ function addBase(items, _base) {
         return item;
     });
 }
-//# sourceMappingURL=sidebar.js.map

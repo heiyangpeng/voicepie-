@@ -27,4 +27,3 @@ export const setupDevtools = (app, router, data) => {
         });
     });
 };
-//# sourceMappingURL=devtools.js.map

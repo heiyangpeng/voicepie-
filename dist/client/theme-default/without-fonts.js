@@ -31,4 +31,3 @@ const theme = {
     }
 };
 export default theme;
-//# sourceMappingURL=without-fonts.js.map

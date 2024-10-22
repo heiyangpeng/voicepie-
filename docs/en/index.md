@@ -6,18 +6,18 @@ titleTemplate:
 
 hero:
   name: voicepie爱说派
-  text: Connect the world simply
+  text: Connect the world 
   tagline: Smart translation, seamless conversations
   actions:
     - theme: brand
       text: What is voicepie爱说派?
-      link: /guide/what-is-vitepress
+      link: /en/guide/what-is-vitepress
     - theme: alt
       text: Quickstart
-      link: /guide/getting-started
-    - theme: alt
-      text: install
-      link: https://github.com/vuejs/vitepress
+      link: /en/guide/getting-started
+    # - theme: alt
+    #   text: install
+    #   link: https://github.com/vuejs/vitepress
   image:
     src: /vitepress-logo-large.webp
     alt: VitePress

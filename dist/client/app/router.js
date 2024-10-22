@@ -244,4 +244,3 @@ function normalizeHref(href) {
         url.pathname += '.html';
     return url.pathname + url.search + url.hash;
 }
-//# sourceMappingURL=router.js.map

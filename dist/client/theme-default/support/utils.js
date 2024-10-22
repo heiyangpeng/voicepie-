@@ -31,4 +31,3 @@ export function normalizeLink(url) {
         : url.replace(/(?:(^\.+)\/)?.*$/, `$1${pathname.replace(/(\.md)?$/, site.value.cleanUrls ? '' : '.html')}${search}${hash}`);
     return withBase(normalizedPath);
 }
-//# sourceMappingURL=utils.js.map

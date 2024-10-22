@@ -71,4 +71,3 @@ async function copyToClipboard(text) {
         }
     }
 }
-//# sourceMappingURL=copyCode.js.map

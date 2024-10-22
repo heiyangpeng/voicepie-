@@ -79,4 +79,3 @@ function isMetaDescription(headConfig) {
 function filterOutHeadDescription(head) {
     return head.filter((h) => !isMetaDescription(h));
 }
-//# sourceMappingURL=head.js.map

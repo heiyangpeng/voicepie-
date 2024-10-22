@@ -32,13 +32,13 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     {
       text: 'Guide',
-      link: '/guide/what-is-vitepress',
-      activeMatch: '/guide/'
+      link: '/en/guide/what-is-vitepress',
+      activeMatch: '/en/guide/'
     },
     {
       text: 'Reference',
-      link: '/reference/site-config',
-      activeMatch: '/reference/'
+      link: '/en/reference/site-config',
+      activeMatch: '/en/reference/'
     },
     // {
     //   text: pkg.version,
@@ -116,7 +116,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: 'CLI', link: 'cli' },
         {
           text: 'Default Theme',
-          base: '/reference/default-theme-',
+          base: '/en/reference/default-theme-',
           items: [
             { text: 'Overview', link: 'config' },
             { text: 'Nav', link: 'nav' },

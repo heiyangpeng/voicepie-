@@ -176,4 +176,3 @@ function getAbsoluteTop(element) {
     }
     return offsetTop;
 }
-//# sourceMappingURL=outline.js.map

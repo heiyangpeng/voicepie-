@@ -14,4 +14,3 @@ export function useEditLink() {
         return { url, text };
     });
 }
-//# sourceMappingURL=edit-link.js.map

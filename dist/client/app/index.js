@@ -148,4 +148,3 @@ if (inBrowser) {
         });
     });
 }
-//# sourceMappingURL=index.js.map

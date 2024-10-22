@@ -10,6 +10,7 @@ export const shared = defineConfig({
 
   rewrites: {
     'zh/:rest*': ':rest*'
+    /** zh/: **/
   },
 
   lastUpdated: true,
@@ -56,6 +57,14 @@ export const shared = defineConfig({
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ],
 
+    // nav: [
+    //   // 其他导航项...
+    //   { text: '下载', link: '/install' },
+    // ],
+    // sidebar: {
+    //   '/install': [] 
+    // },
+
     search: {
       provider: 'algolia',
       options: {
@@ -75,3 +84,4 @@ export const shared = defineConfig({
     // carbonAds: { code: 'CEBDT27Y', placement: 'vuejsorg' } 广告
   }
 })
+

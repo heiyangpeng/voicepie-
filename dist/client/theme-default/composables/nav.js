@@ -28,4 +28,3 @@ export function useNav() {
         toggleScreen
     };
 }
-//# sourceMappingURL=nav.js.map

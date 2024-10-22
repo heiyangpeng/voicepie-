@@ -24,4 +24,3 @@ function normalizeLink(link, addPath, path, addExt) {
                 .replace(/\.md$/, addExt ? '.html' : ''))
         : link;
 }
-//# sourceMappingURL=langs.js.map

@@ -8,4 +8,3 @@ export async function render(path) {
     ctx.content = await renderToString(app, ctx);
     return ctx;
 }
-//# sourceMappingURL=ssr.js.map

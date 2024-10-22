@@ -47,4 +47,3 @@ export function createSearchTranslate(defaultTranslations) {
     }
     return translate;
 }
-//# sourceMappingURL=translation.js.map

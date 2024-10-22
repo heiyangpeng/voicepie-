@@ -15,4 +15,3 @@ export function useAside() {
         isAsideEnabled
     };
 }
-//# sourceMappingURL=aside.js.map

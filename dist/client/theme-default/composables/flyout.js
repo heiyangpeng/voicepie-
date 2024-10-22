@@ -39,4 +39,3 @@ function deactivateFocusTracking() {
 function handleFocusIn() {
     focusedElement.value = document.activeElement;
 }
-//# sourceMappingURL=flyout.js.map

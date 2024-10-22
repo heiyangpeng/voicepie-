@@ -16,4 +16,3 @@ export function useLocalNav() {
         hasLocalNav
     };
 }
-//# sourceMappingURL=local-nav.js.map

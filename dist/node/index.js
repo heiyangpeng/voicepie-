@@ -198,4 +198,3 @@ function postcssIsolateStyles(options = {}) {
 }
 
 export { createContentLoader, createMarkdownRenderer, postcssIsolateStyles };
-//# sourceMappingURL=index.js.map

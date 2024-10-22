@@ -13,7 +13,6 @@ export default defineConfig({
   locales: {
     root: { label: '简体中文', ...zh },
     en: { label: 'English', ...en },
-    
     // pt: { label: 'Português', ...pt },
     // ru: { label: 'Русский', ...ru },
     // es: { label: 'Español', ...es },

@@ -57,4 +57,3 @@ export function useData() {
     }
     return data;
 }
-//# sourceMappingURL=data.js.map
