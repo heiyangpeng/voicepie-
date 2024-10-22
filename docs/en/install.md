@@ -1,9 +1,9 @@
 ---
-title: 下载
+title: Download
 ---
 
 <script setup>
 import DownloadPage from '../components/DownloadPage.vue'
 </script>
 
-<DownloadPage lang="zh" :showUpdateTime="false" />
+<DownloadPage lang="en" :showUpdateTime="false" />

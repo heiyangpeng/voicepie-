@@ -1,204 +1,248 @@
+<script setup>
+const props = defineProps({
+  lang: {
+    type: String,
+    default: 'en'
+  },
+  showUpdateTime: {
+    type: Boolean,
+    default: true
+  }
+})
+
+// 多语言配置
+const content = {
+  zh: {
+    title: '下载',
+    downloadText: '下载',
+    tips: {
+      title: '下载提示',
+      content: '该软件仍处于测试阶段。它使用本地处理来保护隐私，准确率达到 90%。请确保您所使用的手机或电脑符合下载要求，才有很好的体验！'
+    },
+    lastUpdate: '最后更新于: '
+  },
+  en: {
+    title: 'Download',
+    downloadText: 'Download',
+    tips: {
+      title: 'Download Tips',
+      content: 'The software is still in beta. It uses local processing to protect privacy and achieves 90% accuracy. Please make sure your device meets the requirements for the best experience!'
+    },
+    lastUpdate: 'Last updated: '
+  }
+}
+
+// 下载选项
+const downloads = [
+  {
+    title: 'Windows',
+    systems: props.lang === 'zh' ? '仅支持Windows 10, 11' : 'Windows 10, 11',
+    icon: 'windows',
+    version: 'v174',
+    link: '#windows-download'
+  },
+  {
+    title: 'macOS',
+    systems: props.lang === 'zh' ? '仅支持M芯片' : 'Apple Silicon only',
+    icon: 'apple',
+    version: 'v1.2.0',
+    link: '#macos-download'
+  },
+  {
+    title: 'iOS',
+    systems: props.lang === 'zh' ? '支持机型=<15' : 'models=<iphone15',
+    icon: 'apple',
+    version: 'v1.3.8',
+    link: '#ios-download'
+  },
+  {
+    title: 'Android',
+    systems: props.lang === 'zh' ? '推荐Android 12+' : 'Android 12+',
+    icon: 'android',
+    version: 'v191',
+    link: '#android-download'
+  }
+]
+
+// 获取当前时间
+const getCurrentTime = () => {
+  const now = new Date()
+  return `${now.getFullYear()}/${String(now.getMonth() + 1).padStart(2, '0')}/${String(now.getDate()).padStart(2, '0')} ${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}:${String(now.getSeconds()).padStart(2, '0')}`
+}
+</script>
+
 <template>
-    <div class="download-page">
-      <h1>随时随地使用voicepie爱说派</h1>
-      <h2>客户端</h2>
-      <p>同时支持 iOS、Android、macOS、Windows 版本</p>
-      <div class="platform-grid">
-        <div v-for="platform in platforms" :key="platform.name" class="platform-item">
-          <div class="icon-container" @mouseover="showQR(platform)" @mouseleave="hideQR">
-            <img :src="platform.icon" :alt="platform.name + ' icon'" class="platform-icon">
-            <div v-if="platform.showQR" class="qr-code">
-              <img :src="platform.qrCode" :alt="platform.name + ' QR Code'" class="qr-image">
-              <p>版本: {{ platform.version }}</p>
-            </div>
-          </div>
-          <h3>{{ platform.name }}</h3>
-          <p>版本: {{ platform.version }}</p>
-          <div class="button-container">
-            <button class="download-button" @mouseover="showUpdateLog(platform)" @mouseleave="hideUpdateLog">
-              下载{{ platform.buttonText }}
-            </button>
-            <div v-if="platform.showUpdateLog" class="update-log">
-              <p>版本: {{ platform.version }}</p>
-              <a :href="platform.updateLogUrl" target="_blank" class="update-link">更新日志</a>
-            </div>
-          </div>
-        </div>
+  <div class="download-container">
+    <h1 class="page-title">{{ content[props.lang].title }}</h1>
+    
+    <div class="download-grid">
+      <div v-for="item in downloads" :key="item.title" class="download-card">
+        <h2 class="card-title">{{ item.title }}</h2>
+        <p class="card-subtitle">{{ item.systems }}</p>
+        <a :href="item.link" class="download-button">
+          <span v-if="item.icon === 'windows'" class="icon">
+            <svg viewBox="0 0 88 88" class="platform-icon windows-icon">
+              <path d="m0,12.402,35.687-4.8602,0.0156,34.423-35.67,0.20313zm35.67,33.529,0.0277,34.453-35.67-4.9041-0.002-29.78zm4.3261-39.025,47.318-6.906,0,41.527-47.318,0.37565zm47.329,39.349-0.0111,41.34-47.318-6.6784-0.0663-34.739z"/>
+            </svg>
+          </span>
+          <span v-else-if="item.icon === 'apple'" class="icon">
+            <svg viewBox="0 0 384 512" class="platform-icon apple-icon">
+              <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/>
+            </svg>
+          </span>
+          <span v-else class="icon">
+            <svg viewBox="0 0 24 24" class="platform-icon android-icon">
+              <path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993s-.4482.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993s-.4482.9997-.9993.9997m11.4045-6.02l1.9973-3.45a.416.416 0 00-.1521-.5676.416.416 0 00-.5676.1521l-2.0223 3.5a11.6667 11.6667 0 00-9.6194 0l-2.0223-3.5a.416.416 0 00-.5676-.1521.416.416 0 00-.1521.5676l1.9973 3.45a10.4168 10.4168 0 00-5.2148 8.8456h21.3744a10.4168 10.4168 0 00-5.2148-8.8456z"/>
+            </svg>
+          </span>
+          <span class="button-text">{{ content[props.lang].downloadText }}</span>
+          <span class="version-text">({{ item.version }})</span>
+        </a>
       </div>
     </div>
-  </template>
-  
-  <script setup>
-  import { ref } from 'vue'
-  
-  const platforms = ref([
-    { 
-      name: 'iOS', 
-      version: '1.1.4', 
-      icon: '/icons/ios.png', 
-      qrCode: '/qr/ios.png', 
-      buttonText: 'iOS 版', 
-      showQR: false, 
-      showUpdateLog: false,
-      updateLogUrl: '/update-logs/ios'
-    },
-    { 
-      name: 'Android', 
-      version: '1.1.4', 
-      icon: '/icons/android.png', 
-      qrCode: '/qr/android.png', 
-      buttonText: 'Android 版', 
-      showQR: false, 
-      showUpdateLog: false,
-      updateLogUrl: '/update-logs/android'
-    },
-    { 
-      name: 'macOS', 
-      version: '3.4.5.1213', 
-      icon: '/icons/macos.png', 
-      qrCode: '/qr/macos.png', 
-      buttonText: 'macOS 版', 
-      showQR: false, 
-      showUpdateLog: false,
-      updateLogUrl: '/update-logs/macos'
-    },
-    { 
-      name: 'Windows', 
-      version: '3.4.5.1213', 
-      icon: '/icons/windows.png', 
-      qrCode: '/qr/windows.png', 
-      buttonText: 'Windows 版', 
-      showQR: false, 
-      showUpdateLog: false,
-      updateLogUrl: '/update-logs/windows'
-    },
-  ])
-  
-  const showQR = (platform) => {
-    platform.showQR = true
-  }
-  
-  const hideQR = () => {
-    platforms.value.forEach(p => p.showQR = false)
-  }
-  
-  const showUpdateLog = (platform) => {
-    platform.showUpdateLog = true
-  }
-  
-  const hideUpdateLog = () => {
-    platforms.value.forEach(p => p.showUpdateLog = false)
-  }
-  </script>
-  
-  <style scoped>
-  .download-page {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .platform-grid {
-    display: flex;
+
+    <div class="tips-container">
+      <h3 class="tips-title">{{ content[props.lang].tips.title }}</h3>
+      <p class="tips-content">{{ content[props.lang].tips.content }}</p>
+    </div>
+
+    <div v-if="showUpdateTime" class="update-time-container">
+      {{ content[props.lang].lastUpdate }}{{ getCurrentTime() }}
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.download-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.page-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 2rem 0 3rem;
+  color: var(--vp-c-text-1);
+}
+
+.download-grid {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.download-card {
+  width: 160px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--vp-c-text-1);
+}
+
+.card-subtitle {
+  color: var(--vp-c-text-2);
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  min-height: 2em;
+}
+
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.75rem;
+  transition: all 0.2s ease;
+  border: 1px solid var(--vp-c-divider);
+  width: 100%;
+  white-space: nowrap;
+}
+
+.download-button:hover {
+  background-color: var(--vp-c-neutral);
+  color: var(--vp-c-bg);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.platform-icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+.button-text, .version-text {
+  color: inherit;
+}
+
+.tips-container {
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.tips-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--vp-c-text-1);
+}
+
+.tips-content {
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--vp-c-text-2);
+}
+
+.update-time-container {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--vp-c-text-2);
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .download-grid {
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 40px;
+    gap: 1rem;
   }
   
-  .platform-item {
-    flex: 1 1 200px;
-    max-width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .download-card {
+    width: calc(50% - 1rem);
   }
-  
-  .icon-container {
-    position: relative;
-    width: 80px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  .download-card {
+    width: 100%;
   }
-  
-  .platform-icon {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-  }
-  
-  .qr-code {
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    z-index: 10;
-    box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
-  }
-  
-  .qr-image {
-    width: 100px;
-    height: 100px;
-  }
-  
-  .button-container {
-    position: relative;
-  }
-  
-  .download-button {
-    padding: 8px 16px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-    transition: background-color 0.3s;
-  }
-  
-  .download-button:hover {
-    background-color: #45a049;
-  }
-  
-  .update-log {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    z-index: 10;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  }
-  
-  .update-link {
-    color: #1890ff;
-    text-decoration: none;
-  }
-  
-  .update-link:hover {
-    text-decoration: underline;
-  }
-  
-  @media (max-width: 768px) {
-    .platform-grid {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .platform-item {
-      max-width: 100%;
-    }
-  }
-  </style>
+}
+
+:root.dark .download-button {
+  background-color: var(--vp-c-bg-mute);
+  color: var(--vp-c-text-1);
+  border-color: var(--vp-c-divider);
+}
+
+:root.dark .download-button:hover {
+  background-color: var(--vp-c-neutral);
+  color: var(--vp-c-bg);
+  border-color: var(--vp-c-neutral);
+}
+</style>

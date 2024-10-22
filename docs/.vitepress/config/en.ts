@@ -22,8 +22,8 @@ export const en = defineConfig({
     // },
 
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present voicepie爱说派'
+      message: 'I bring the language, you own the world',
+      copyright: `版权所有 © 2019-${new Date().getFullYear()} voicepie爱说派`
     }
   }
 })

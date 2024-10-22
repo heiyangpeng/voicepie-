@@ -22,7 +22,7 @@ export const zh = defineConfig({
     // },
 
     footer: {
-      message: '基于 MIT 许可发布',
+      message: '我带来语言，你拥有世界',
       copyright: `版权所有 © 2019-${new Date().getFullYear()} voicepie爱说派`
     },
 
