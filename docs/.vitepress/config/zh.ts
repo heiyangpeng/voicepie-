@@ -55,11 +55,11 @@ export const zh = defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
   return [
-    {
-      text: '指南',
-      link: '/guide/product',
-      activeMatch: '/guide/'
-    },
+    // {
+    //   text: '指南',
+    //   link: '/guide/product',
+    //   activeMatch: '/guide/'
+    // },
     // {
     //   text: '参考',
     //   link: '/reference/site-config',
@@ -96,14 +96,14 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
         { text: '必要权限', link: 'competence' }
       ]
     },
-    {
-      text: 'Windows',
-      collapsed: false,
-      items: [
-        // { text: '系统支持', link: 'system' },
-        // { text: '必要权限', link: 'competence' },
-      ]
-    },
+    // {
+    //   text: 'Windows',
+    //   collapsed: false,
+    //   items: [
+    //     // { text: '系统支持', link: 'system' },
+    //     // { text: '必要权限', link: 'competence' },
+    //   ]
+    // },
     {
       text: 'Android',
       collapsed: false,

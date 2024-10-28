@@ -6,6 +6,4 @@
 
 耳机设备拔掉-手机系统设置-搜索OTG连接-开启OTG-再插入耳机设备
 
-<p align = "center">    
-<img  src="https://bu.dusays.com/2024/10/28/671ef9e5bb6cb.png"  />
-</p>
+![OTG开启](https://bu.dusays.com/2024/10/28/671ef9e5bb6cb.png)

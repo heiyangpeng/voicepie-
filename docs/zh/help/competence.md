@@ -1,29 +1,12 @@
-## 授权同意(android)
+> [!IMPORTANT] 权限须知
+> 新用户进入爱说派APP后请将所有权限授权同意设置完成，不然可能影响使用体验
 
-<p align = "center">    
-<img  src="https://bu.dusays.com/2024/10/26/671c5ddbacd8d.png" width="200" />
-</p>
+---
 
-## 电池优化及后台权限(android)
+## 安卓权限
 
-<p align = "center">    
-<img  src="https://bu.dusays.com/2024/10/26/671c6646a4836.png" width="200" />
-</p>
+![android权限](https://bu.dusays.com/2024/10/28/671f4575e3af0.png)
 
-## 允许APP悬浮窗置顶授权（android）
+## 苹果权限（IOS）
 
-<p align = "center">    
-<img  src="https://bu.dusays.com/2024/10/26/671c67348c951.png" width="200" />
-</p>
-
-## 麦克风权限（IOS）
-
-<p align = "center">    
-<img  src="https://bu.dusays.com/2024/10/26/671c699759547.png" width="200" />
-</p>
-
-## 蓝牙权限（IOS）
-
-<p align = "center">    
-<img  src="https://bu.dusays.com/2024/10/26/671c699759547.png" width="200" />
-</p>
+![IOS权限](https://bu.dusays.com/2024/10/28/671f484fe2961.png)
