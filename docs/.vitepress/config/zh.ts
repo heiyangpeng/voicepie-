@@ -12,7 +12,7 @@ export const zh = defineConfig({
     nav: nav(),
 
     sidebar: {
-      // '/guide/': { base: '/guide/', items: sidebarGuide() },
+      '/guide/': { base: '/guide/', items: sidebarGuide() },
       // '/reference/': { base: '/reference/', items: sidebarReference() },
       '/help/': { base: '/help/', items: sidebarHelp() }
     },
@@ -55,11 +55,11 @@ export const zh = defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
   return [
-    // {
-    //   text: '指南',
-    //   link: '/guide/product',
-    //   activeMatch: '/guide/'
-    // },
+    {
+      text: '指南',
+      link: '/guide/product',
+      activeMatch: '/guide/'
+    },
     // {
     //   text: '参考',
     //   link: '/reference/site-config',
@@ -108,8 +108,11 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
       text: 'Android',
       collapsed: false,
       items: [
-        { text: 'mtk芯片实体通话无法使用', link: 'mtk' },
-        { text: '华为手机面对面音频设置', link: 'huawei-audio' }
+        // { text: 'mtk芯片实体通话无法使用', link: 'mtk' },
+        { text: '华为荣耀使用面对面设置', link: 'huawei-audio' },
+        { text: '耳机设备插入未识别', link: 'unidentified' },
+        { text: '翻译没有声音', link: 'nosound' }
+
         // { text: '系统支持', link: 'system' },
         // { text: '必要权限', link: 'competence' },
       ]
@@ -117,21 +120,26 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
     {
       text: 'macOS',
       collapsed: false,
-      items: [
-        // { text: '系统支持', link: 'system' },
-        // { text: '必要权限', link: 'competence' },
-      ]
+      items: [{ text: '系统音频设置', link: 'mac-sound' }]
     },
+    // {
+    //   text: 'IOS',
+    //   collapsed: false,
+    //   items: [
+    //     { text: '画中画', link: 'system' }
+    //     // { text: '必要权限', link: 'competence' },
+    //   ]
+    // },
     {
-      text: 'IOS',
+      text: '通用问题',
       collapsed: false,
       items: [
-        // { text: '系统支持', link: 'system' },
-        // { text: '必要权限', link: 'competence' },
+        { text: '翻译不准确', link: 'common-accuracy' }
+        // { text: '', link: '' },
       ]
-    },
+    }
 
-    { text: '常用问题', base: '/help/', link: 'currency' }
+    // { text: '常用问题', base: '/help/', link: 'currency' }
   ]
 }
 
@@ -261,13 +269,3 @@ export const search: DefaultTheme.AlgoliaSearchOptions['locales'] = {
     }
   }
 }
-
-export default defineConfig({
-  vue: {
-    template: {
-      compilerOptions: {
-        isCustomElement: (tag) => ['iframe'].includes(tag)
-      }
-    }
-  }
-})

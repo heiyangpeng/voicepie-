@@ -2,11 +2,11 @@
 layout: home
 
 title: voicepie爱说派
-titleTemplate: 
+titleTemplate:
 
 hero:
   name: voicepie爱说派
-  text: Connect the world 
+  text: Connect the world
   tagline: Smart translation, seamless conversations
   actions:
     - theme: brand
@@ -26,7 +26,7 @@ features:
   - icon: 📝
     title: AI Meeting Summary
     details: Built-in AI automatically extracts the key points of a conversation and generates a concise summary of the call.
-  - icon: 🌍 
+  - icon: 🌍
     title: Seamless multilingual switching
     details: Covering more than 90 languages around the world, you can switch between languages at any time when you are out and about, making communication zero obstacle.
   - icon: 🗣️
@@ -47,28 +47,4 @@ features:
   - icon: 🎤
     title: Voice Change
     details: Real-time voice change technology for better business negotiations
-
 ---
-
-<style>
-:root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
-
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
-  --vp-home-hero-image-filter: blur(44px);
-}
-
-@media (min-width: 640px) {
-  :root {
-    --vp-home-hero-image-filter: blur(56px);
-  }
-}
-
-@media (min-width: 960px) {
-  :root {
-    --vp-home-hero-image-filter: blur(68px);
-  }
-}
-
-</style>

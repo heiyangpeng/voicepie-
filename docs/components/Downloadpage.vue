@@ -60,29 +60,40 @@ const downloads = [
     systems: props.lang === 'zh' ? '仅支持Windows 10, 11' : 'Windows 10, 11',
     icon: 'windows',
     version: 'v174',
-    link: '#windows-download'
+    links: {
+      global: 'https://example.com/global/windows', // 国际链接
+      china: 'https://example.cn/windows' // 中国链接
+    }
   },
   {
     title: 'macOS',
     systems: props.lang === 'zh' ? '仅支持M芯片' : 'Apple Silicon only',
     icon: 'apple',
     version: 'v1.2.0',
-    link: '#macos-download'
+    links: {
+      global: 'https://example.com/global/macos',
+      china: 'https://example.cn/macos'
+    }
   },
   {
     title: 'iOS',
     systems: props.lang === 'zh' ? '支持机型=<15' : 'iPhone 15 or earlier',
     icon: 'apple',
     version: 'v1.3.8',
-    link: '#ios-download'
+    links: {
+      global: 'https://example.com/global/ios',
+      china: 'https://example.cn/ios'
+    }
   },
   {
     title: 'Android',
-    systems:
-      props.lang === 'zh' ? '推荐Android 12+' : 'Android 12+ recommended',
+    systems: props.lang === 'zh' ? '推荐Android 12+' : 'Android 12+',
     icon: 'android',
     version: 'v191',
-    link: '#android-download'
+    links: {
+      global: 'https://example.com/global/android',
+      china: 'https://example.cn/android'
+    }
   }
 ]
 
@@ -91,11 +102,16 @@ const getCurrentTime = () => {
   const now = new Date()
   return `${now.getFullYear()}/${String(now.getMonth() + 1).padStart(2, '0')}/${String(now.getDate()).padStart(2, '0')} ${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}:${String(now.getSeconds()).padStart(2, '0')}`
 }
+
+// 根据语言选择对应的下载链接
+const getDownloadLink = (links) => {
+  return props.lang === 'zh' ? links.china : links.global
+}
 </script>
 
 <template>
   <div class="download-container">
-    <!-- 标题区域，根据 showTitle 和 onlyCards 控制显示 -->
+    <!-- 标题区域 -->
     <h1 v-if="showTitle && !onlyCards" class="page-title">
       {{ content[props.lang].title }}
     </h1>
@@ -105,43 +121,45 @@ const getCurrentTime = () => {
       <div v-for="item in downloads" :key="item.title" class="download-card">
         <h2 class="card-title">{{ item.title }}</h2>
         <p class="card-subtitle">{{ item.systems }}</p>
-        <a :href="item.link" class="download-button">
-          <!-- Windows 图标 -->
-          <span v-if="item.icon === 'windows'" class="icon">
-            <svg viewBox="0 0 88 88" class="platform-icon">
-              <path
-                d="m0,12.402,35.687-4.8602,0.0156,34.423-35.67,0.20313zm35.67,33.529,0.0277,34.453-35.67-4.9041-0.002-29.78zm4.3261-39.025,47.318-6.906,0,41.527-47.318,0.37565zm47.329,39.349-0.0111,41.34-47.318-6.6784-0.0663-34.739z"
-              />
-            </svg>
+        <a :href="getDownloadLink(item.links)" class="download-button">
+          <span class="icon">
+            <span v-if="item.icon === 'windows'" class="platform-icon">
+              <svg viewBox="0 0 88 88">
+                <path
+                  d="m0,12.402,35.687-4.8602,0.0156,34.423-35.67,0.20313zm35.67,33.529,0.0277,34.453-35.67-4.9041-0.002-29.78zm4.3261-39.025,47.318-6.906,0,41.527-47.318,0.37565zm47.329,39.349-0.0111,41.34-47.318-6.6784-0.0663-34.739z"
+                />
+              </svg>
+            </span>
+            <span v-else-if="item.icon === 'apple'" class="platform-icon">
+              <svg viewBox="0 0 384 512">
+                <path
+                  d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
+                />
+              </svg>
+            </span>
+            <span v-else class="platform-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993s-.4482.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993s-.4482.9997-.9993.9997m11.4045-6.02l1.9973-3.45a.416.416 0 00-.1521-.5676.416.416 0 00-.5676.1521l-2.0223 3.5a11.6667 11.6667 0 00-9.6194 0l-2.0223-3.5a.416.416 0 00-.5676-.1521.416.416 0 00-.1521.5676l1.9973 3.45a10.4168 10.4168 0 00-5.2148 8.8456h21.3744a10.4168 10.4168 0 00-5.2148-8.8456z"
+                />
+              </svg>
+            </span>
           </span>
-          <!-- Apple 图标 -->
-          <span v-else-if="item.icon === 'apple'" class="icon">
-            <svg viewBox="0 0 384 512" class="platform-icon">
-              <path
-                d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
-              />
-            </svg>
-          </span>
-          <!-- Android 图标 -->
-          <span v-else class="icon">
-            <svg viewBox="0 0 24 24" class="platform-icon">
-              <path
-                d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993s-.4482.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993s-.4482.9997-.9993.9997m11.4045-6.02l1.9973-3.45a.416.416 0 00-.1521-.5676.416.416 0 00-.5676.1521l-2.0223 3.5a11.6667 11.6667 0 00-9.6194 0l-2.0223-3.5a.416.416 0 00-.5676-.1521.416.416 0 00-.1521.5676l1.9973 3.45a10.4168 10.4168 0 00-5.2148 8.8456h21.3744a10.4168 10.4168 0 00-5.2148-8.8456z"
-              />
-            </svg>
-          </span>
-          {{ content[props.lang].downloadText }} ({{ item.version }})
+          <span class="button-text">{{
+            content[props.lang].downloadText
+          }}</span>
+          <span class="version-text">({{ item.version }})</span>
         </a>
       </div>
     </div>
 
-    <!-- 提示区域，根据 showTips 和 onlyCards 控制显示 -->
+    <!-- 提示区域 -->
     <div v-if="showTips && !onlyCards" class="tips-container">
       <h3 class="tips-title">{{ content[props.lang].tips.title }}</h3>
       <p class="tips-content">{{ content[props.lang].tips.content }}</p>
     </div>
 
-    <!-- 更新时间区域，根据 showUpdateTime 和 onlyCards 控制显示 -->
+    <!-- 更新时间区域 -->
     <div v-if="showUpdateTime && !onlyCards" class="update-time-container">
       {{ content[props.lang].lastUpdate }}{{ getCurrentTime() }}
     </div>

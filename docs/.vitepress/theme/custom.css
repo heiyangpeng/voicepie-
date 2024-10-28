@@ -1,0 +1,26 @@
+/* docs/.vitepress/theme/custom.css */
+.medium-zoom-overlay {
+  z-index: 99998;
+  background: var(--vp-c-bg) !important;
+  opacity: 0.8 !important;
+}
+
+.medium-zoom-image {
+  z-index: 99999;
+}
+
+/* 优化图片默认样式 */
+.content img {
+  border-radius: 6px;
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.content img:hover {
+  transform: scale(1.01);
+}
+
+/* 确保图片容器样式正确 */
+.content p img {
+  margin: 0 auto;
+}
