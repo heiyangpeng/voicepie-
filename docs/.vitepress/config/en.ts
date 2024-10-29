@@ -11,10 +11,11 @@ export const en = defineConfig({
   themeConfig: {
     nav: nav(),
 
-    // sidebar: {
-    //   '/en/guide/': { base: '/en/guide/', items: sidebarGuide() },
-    //   '/en/reference/': { base: '/en/reference/', items: sidebarReference() }
-    // },
+    sidebar: {
+      '/en/help/': { base: '/en/help/', items: sidebarHelp() }
+      // '/en/guide/': { base: '/en/guide/', items: sidebarGuide() },
+      // '/en/reference/': { base: '/en/reference/', items: sidebarReference() }
+    },
 
     // editLink: {
     //   pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
@@ -31,15 +32,20 @@ export const en = defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
-      text: 'Guide',
-      link: '/en/guide/what-is-vitepress',
-      activeMatch: '/en/guide/'
-    },
-    {
-      text: 'Reference',
-      link: '/en/reference/site-config',
-      activeMatch: '/en/reference/'
+      text: 'Help&Support',
+      link: '/en/help/preface',
+      activeMatch: '/en/help/'
     }
+    // {
+    //   text: 'Guide',
+    //   link: '/en/guide/what-is-vitepress',
+    //   activeMatch: '/en/guide/'
+    // },
+    // {
+    //   text: 'Reference',
+    //   link: '/en/reference/site-config',
+    //   activeMatch: '/en/reference/'
+    // }
     // {
     //   text: pkg.version,
     //   items: [
@@ -53,6 +59,65 @@ function nav(): DefaultTheme.NavItem[] {
     //     }
     //   ]
     // }
+  ]
+}
+
+function sidebarHelp(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: 'Predict',
+      collapsed: false,
+      items: [
+        { text: 'system support', link: 'system' },
+        { text: 'Required permissions', link: 'competence' }
+      ]
+    },
+    // {
+    //   text: 'Windows',
+    //   collapsed: false,
+    //   items: [
+    //     // { text: '系统支持', link: 'system' },
+    //     // { text: '必要权限', link: 'competence' },
+    //   ]
+    // },
+    {
+      text: 'Android',
+      collapsed: false,
+      items: [
+        // { text: 'mtk芯片实体通话无法使用', link: 'mtk' },
+        { text: 'Huawei Honor Face-to-Face Settings', link: 'huawei-audio' },
+        {
+          text: 'Headset device not recognised when plugged in',
+          link: 'unidentified'
+        },
+        { text: 'No sound when using translation', link: 'nosound' },
+        { text: 'Duplicate translations when using', link: 'chongfu' }
+        // { text: '必要权限', link: 'competence' },
+      ]
+    },
+    {
+      text: 'macOS',
+      collapsed: false,
+      items: [{ text: 'System audio settings', link: 'mac-sound' }]
+    },
+    // {
+    //   text: 'IOS',
+    //   collapsed: false,
+    //   items: [
+    //     { text: '画中画', link: 'system' }
+    //     // { text: '必要权限', link: 'competence' },
+    //   ]
+    // },
+    {
+      text: 'universal problem',
+      collapsed: false,
+      items: [
+        { text: '使用时翻译不准确', link: 'common-accuracy' }
+        // { text: '', link: '' },
+      ]
+    }
+
+    // { text: '常用问题', base: '/help/', link: 'currency' }
   ]
 }
 

@@ -6,13 +6,13 @@ const pkg = require('vitepress/package.json')
 
 export const zh = defineConfig({
   lang: 'zh-Hans',
-  description: '由 Vite 和 Vue 驱动的静态站点生成器',
+  description: '轻松连接世界',
 
   themeConfig: {
     nav: nav(),
 
     sidebar: {
-      '/guide/': { base: '/guide/', items: sidebarGuide() },
+      // '/guide/': { base: '/guide/', items: sidebarGuide() },
       // '/reference/': { base: '/reference/', items: sidebarReference() },
       '/help/': { base: '/help/', items: sidebarHelp() }
     },
@@ -67,7 +67,7 @@ function nav(): DefaultTheme.NavItem[] {
     // },
     {
       text: '帮助与支持',
-      link: '/help/preface.md',
+      link: '/help/preface',
       activeMatch: '/help/'
     }
     // {
@@ -109,11 +109,10 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         // { text: 'mtk芯片实体通话无法使用', link: 'mtk' },
-        { text: '华为荣耀使用面对面设置', link: 'huawei-audio' },
+        { text: '华为荣耀面对面设置', link: 'huawei-audio' },
         { text: '耳机设备插入未识别', link: 'unidentified' },
-        { text: '翻译没有声音', link: 'nosound' }
-
-        // { text: '系统支持', link: 'system' },
+        { text: '使用翻译时没有声音', link: 'nosound' },
+        { text: '使用时出现重复翻译', link: 'chongfu' }
         // { text: '必要权限', link: 'competence' },
       ]
     },
@@ -134,7 +133,7 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
       text: '通用问题',
       collapsed: false,
       items: [
-        { text: '翻译不准确', link: 'common-accuracy' }
+        { text: '使用时翻译不准确', link: 'common-accuracy' }
         // { text: '', link: '' },
       ]
     }
@@ -153,7 +152,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         // { text: '快速开始', link: 'getting-started' },
         // { text: '路由', link: 'routing' },
         // { text: '部署', link: 'deploy' }
-        { text: '有线耳机', link: 'cable' },
+        { text: '有线翻译耳机', link: 'cable' },
         { text: 'TWS蓝牙耳机', link: 'Bluetooth' },
         { text: '直播领夹麦', link: 'live microphone' }
       ]
