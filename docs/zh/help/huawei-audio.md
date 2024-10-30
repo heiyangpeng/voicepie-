@@ -8,6 +8,8 @@
 
 ---
 
-<ImagePreview src="https://bu.dusays.com/2024/10/29/672090754e6be.png" alt="华为荣耀面对面" />
+<!-- <ImagePreview src="https://bu.dusays.com/2024/10/29/672090754e6be.png" alt="华为荣耀面对面" /> -->
+
+![华为](https://bu.dusays.com/2024/10/29/672090754e6be.png)
 
 <!-- <BilibiliPlayer bvid="BV1nK4y1W7uN" /> -->

@@ -9,3 +9,4 @@
 ---
 
 <ImagePreview src="https://bu.dusays.com/2024/10/29/6720906c17373.png" alt="OTG开启" />
+![OTG开启](https://bu.dusays.com/2024/10/29/6720906c17373.png)

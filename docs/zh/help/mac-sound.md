@@ -8,8 +8,14 @@
 
 ---
 
-音频输出选择 kikago.ai enc headphone 设备  
-<img src="https://bu.dusays.com/2024/10/28/671f3de4adb74.png" alt="mac1" width="500"/>
+音频输出选择 kikago.ai enc headphone 设备
 
-音频输入选择 kikago.ai enc headphone 设备  
-<img src="https://bu.dusays.com/2024/10/28/671f3de4adb8f.png" alt="mac2" width="500"/>
+<!-- <img src="https://bu.dusays.com/2024/10/28/671f3de4adb74.png" alt="mac1" width="500"/> -->
+
+![mac1](https://bu.dusays.com/2024/10/28/671f3de4adb74.png)
+
+音频输入选择 kikago.ai enc headphone 设备
+
+<!-- <img src="https://bu.dusays.com/2024/10/28/671f3de4adb8f.png" alt="mac2" width="500"/> -->
+
+![mac2](https://bu.dusays.com/2024/10/28/671f3de4adb8f.png)

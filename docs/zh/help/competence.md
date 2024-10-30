@@ -5,8 +5,12 @@
 
 ## 安卓权限
 
-<ImagePreview src="https://bu.dusays.com/2024/10/29/672090734744c.png" alt="安卓权限" />
+<!-- <ImagePreview src="https://bu.dusays.com/2024/10/29/672090734744c.png" alt="安卓权限" /> -->
+
+![安卓](https://bu.dusays.com/2024/10/29/672090734744c.png)
 
 ## 苹果权限（IOS）
 
-<ImagePreview src="https://bu.dusays.com/2024/10/29/6720906e4adbf.png" alt="图片描述" />
+![IOS](https://bu.dusays.com/2024/10/29/6720906e4adbf.png)
+
+<!-- <ImagePreview src="https://bu.dusays.com/2024/10/29/6720906e4adbf.png" alt="图片描述" /> -->

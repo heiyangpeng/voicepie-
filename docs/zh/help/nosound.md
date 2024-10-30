@@ -14,9 +14,11 @@
 <img  src="https://bu.dusays.com/2024/10/28/671f070e0cb8b.png"  />
 </p>
  -->
-<ImagePreview src="https://bu.dusays.com/2024/10/29/672090751422c.png" alt="播报设置" />
+
+![播报设置](https://bu.dusays.com/2024/10/29/672090751422c.png)
 
 ## 媒体音量调节
 
-<ImagePreview src="https://bu.dusays.com/2024/10/29/67209074e8ebe.png" alt="播报设置" />
 耳机设备播放属于媒体音量输出，在进行实体通话时，需要提高媒体音量
+
+![音量调节](https://bu.dusays.com/2024/10/29/67209074e8ebe.png)

@@ -25,3 +25,18 @@
     --vp-home-hero-image-filter: blur(68px);
   }
 }
+
+/* 自定义 Fancybox 样式 */
+.fancybox__container {
+  --fancybox-bg: rgba(0, 0, 0, 0.85);
+}
+
+/* 优化图片在文档中的显示 */
+.vp-doc img {
+  cursor: zoom-in;
+  transition: all 0.3s ease;
+}
+
+.vp-doc img:hover {
+  transform: scale(1.02);
+}

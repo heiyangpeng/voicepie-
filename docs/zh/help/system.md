@@ -12,6 +12,8 @@ import DownloadPage from '/components/Downloadpage.vue'
   :onlyCards="true"
 /> -->
 
+# 系统支持
+
 :::tip
 
 **安卓**：兼容系统版本最低Android 10，推荐使用12以上的版本。
