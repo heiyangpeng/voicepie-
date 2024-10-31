@@ -14,12 +14,12 @@ import DownloadPage from '/components/Downloadpage.vue'
 
 :::tip
 
-**Android**：Compatible with system versions starting from Android 10, recommended version 12 or higher.
+**Android**: Compatible with Android 10+, recommended 12+.
 
-**PC**：Windows only supports win10 and win11 systems, recommended win10 system.
+**PC**: Supports Windows 10 & 11, recommended Windows 10.
 
-**Mac**：macOS only supports M chip for now.
+**Mac**: Supports M-chip devices only.
 
-**IOS**：1OS only supports iPhone 15 series and above for now.
+**iOS**: Supports iPhone 15+ only.
 
 :::

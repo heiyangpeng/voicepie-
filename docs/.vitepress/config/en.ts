@@ -24,7 +24,7 @@ export const en = defineConfig({
 
     footer: {
       message: 'I bring the language, you own the world',
-      copyright: `版权所有 © 2019-${new Date().getFullYear()} voicepie爱说派`
+      copyright: `All rights reserved © 2019-${new Date().getFullYear()} voicepie爱说派`
     }
   }
 })
@@ -65,11 +65,11 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebarHelp(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'Predict',
+      text: 'Product Usage Notes',
       collapsed: false,
       items: [
-        { text: 'system support', link: 'system' },
-        { text: 'Required permissions', link: 'competence' }
+        { text: 'System Requirements', link: 'system' },
+        { text: 'Required Permissions', link: 'competence' }
       ]
     },
     // {
@@ -85,13 +85,10 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         // { text: 'mtk芯片实体通话无法使用', link: 'mtk' },
-        { text: 'Huawei Honor Face-to-Face Settings', link: 'huawei-audio' },
-        {
-          text: 'Headset device not recognised when plugged in',
-          link: 'unidentified'
-        },
-        { text: 'No sound when using translation', link: 'nosound' },
-        { text: 'Duplicate translations when using', link: 'chongfu' }
+        { text: 'Huawei/Honor settings', link: 'huawei-audio' },
+        { text: 'Earphones not detected', link: 'unidentified' },
+        { text: 'No audio during translation', link: 'nosound' },
+        { text: 'Duplicate translation', link: 'chongfu' }
         // { text: '必要权限', link: 'competence' },
       ]
     },
@@ -109,10 +106,10 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
     //   ]
     // },
     {
-      text: 'universal problem',
+      text: 'General Issues',
       collapsed: false,
       items: [
-        { text: '使用时翻译不准确', link: 'common-accuracy' }
+        { text: 'Translation is inaccurate', link: 'common-accuracy' }
         // { text: '', link: '' },
       ]
     }

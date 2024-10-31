@@ -1,13 +1,13 @@
-# 华为荣耀面对面设置
+# Huawei/Honor settings
 
 :::warning
-华为荣耀手机插入voicepie耳机设备，面对面模式下，输出音量设备不能直接切换，需手动自行切换
+On Huawei Honor phones, output device won’t auto-switch in Face-to-Face mode with VoicePie earphones.
 
-手机屏顶部下拉控制中心-打开音频控制-选择本机-即可外放
+Swipe down the control center > Audio control > Select “This Device” to enable speaker output.
 :::
 
 ---
 
-<ImagePreview src="https://bu.dusays.com/2024/10/29/672090754e6be.png" alt="华为荣耀面对面" />
+![华为荣耀面对面](https://bu.dusays.com/2024/10/29/672090754e6be.png)
 
 <!-- <BilibiliPlayer bvid="BV1nK4y1W7uN" /> -->
