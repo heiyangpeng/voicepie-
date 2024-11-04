@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: 什么是 voicepie爱说派?
-      link: /guide/what-is-vitepress
+      link: /guide/what-is-voicepie
     - theme: alt
       text: 快速开始
-      link: /guide/getting-started
+      link: /guide/quick-start
     # - theme: alt
     #   text: 下载
     #   link: /install
