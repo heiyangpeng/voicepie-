@@ -61,7 +61,8 @@ const downloads = [
     icon: 'windows',
     version: 'v174',
     links: {
-      global: 'https://example.com/global/windows', // 国际链接
+      global:
+        'https://usa-1a.oss-us-west-1.aliyuncs.com/voicepie/Windows/Voicepie_V124.0809.5.545_App1.75A.msi', // 国际链接
       china:
         'https://shenzhen-a.oss-cn-shenzhen.aliyuncs.com/icepi/Windows/Voicepie_V124.0809.5.545_App1.75A.msi' // 中国链接
     }
@@ -72,8 +73,10 @@ const downloads = [
     icon: 'apple',
     version: 'v1.2.0',
     links: {
-      global: 'https://example.com/global/macos',
-      china: 'https://example.cn/macos'
+      global:
+        'https://usa-1a.oss-us-west-1.aliyuncs.com/voicepie/macos/voicepie_1.3_18_20241105A.zip',
+      china:
+        'https://shenzhen-a.oss-cn-shenzhen.aliyuncs.com/icepi/macos/voicepie_1.3_18_20241105A.zip'
     }
   },
   {
@@ -82,18 +85,22 @@ const downloads = [
     icon: 'apple',
     version: 'v1.3.8',
     links: {
-      global: 'https://example.com/global/ios',
-      china: 'https://example.cn/ios'
+      global:
+        'https://apps.apple.com/us/app/%E7%88%B1%E8%AF%B4%E6%B4%BE/id6475754060?l=zh-Hans-CN',
+      china:
+        'https://apps.apple.com/us/app/%E7%88%B1%E8%AF%B4%E6%B4%BE/id6475754060?l=zh-Hans-CN'
     }
   },
   {
     title: 'Android',
     systems: props.lang === 'zh' ? '推荐Android 12+' : 'Android 12+',
     icon: 'android',
-    version: 'v191',
+    version: 'v194',
     links: {
-      global: 'https://example.com/global/android',
-      china: 'https://example.cn/android'
+      global:
+        'https://usa-1a.oss-us-west-1.aliyuncs.com/voicepie/android/kikago_voicepie_v194_9920480_A_241104B.apk',
+      china:
+        'https://shenzhen-a.oss-cn-shenzhen.aliyuncs.com/icepi/android/kikago_voicepie_v194_9920480_A_241104B.apk'
     }
   }
 ]

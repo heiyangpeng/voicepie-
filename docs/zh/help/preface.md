@@ -1,6 +1,6 @@
 :::tip 如何使用 帮助与支持？
 
-当您遇到使用问题时，请根据<code>菜单栏</code>内问题进行排解，也是为了减少彼此沟通成本，望您理解。
+当您遇到使用问题时，请根据以下问题进行自行排解，也是为了减少彼此沟通成本，望您理解。
 
 如需要获得一对一服务支持，请留下您的联系方式和问题，在<code>反馈问题</code>中提交。
 
@@ -15,6 +15,8 @@
 :::
 
 <!-- <div class="cards-container"> -->
+
+## Android
 
 <div class="cards-container">
   <div class="card" >
@@ -44,5 +46,50 @@
   <div class="card" >
     <a href="/help/unidentified"></a>
     耳机设备插入未识别
+  </div>
+</div>
+
+## windows
+
+<div class="cards-container">
+  <div class="card" >
+    <a href="/help/windows-1"></a>
+    安装失败!文件不存在!
+  </div>
+</div>
+<div class="cards-container">
+  <div class="card" >
+    <a href="/help/windows-2"></a>
+    遇到驱动报错[代码52]
+  </div>
+</div>
+<div class="cards-container">
+  <div class="card" >
+    <a href="/help/windows-3"></a>
+    干净卸载驱动程序
+  </div>
+</div>
+<div class="cards-container">
+  <div class="card" >
+    <a href="/help/windows-3"></a>
+    无法与服务器建立连接
+  </div>
+</div>
+
+## macOS
+
+<div class="cards-container">
+  <div class="card" >
+    <a href="/help/mac-sound"></a>
+    系统音频设置
+  </div>
+</div>
+
+## 通用问题
+
+<div class="cards-container">
+  <div class="card" >
+    <a href="/help/common-accuracy"></a>
+    使用时翻译不准确
   </div>
 </div>

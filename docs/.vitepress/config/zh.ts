@@ -57,8 +57,13 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     {
       text: '指南',
-      link: '/guide/what-is-voicepie',
-      activeMatch: '/guide/'
+      items: [
+        { text: '有线翻译耳机', link: 'README-c1' },
+        { text: '蓝牙翻译耳机', link: 'README-w1' },
+        { text: '直播翻译设备', link: 'README-m1' }
+      ]
+      // link: '/guide/what-is-voicepie',
+      // activeMatch: '/guide/'
     },
     // {
     //   text: '参考',
@@ -96,14 +101,6 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
         { text: '必要权限', link: 'competence' }
       ]
     },
-    // {
-    //   text: 'Windows',
-    //   collapsed: false,
-    //   items: [
-    //     // { text: '系统支持', link: 'system' },
-    //     // { text: '必要权限', link: 'competence' },
-    //   ]
-    // },
     {
       text: 'Android',
       collapsed: false,
@@ -120,6 +117,16 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
       text: 'macOS',
       collapsed: false,
       items: [{ text: '系统音频设置', link: 'mac-sound' }]
+    },
+    {
+      text: 'Windows',
+      collapsed: false,
+      items: [
+        { text: '干净卸载驱动程序', link: 'windows-3' },
+        { text: '安装失败!文件不存在!', link: 'windows-1' },
+        { text: '遇到驱动报错[代码52]', link: 'windows-2' },
+        { text: '无法与服务器建立连接', link: 'windows-4' }
+      ]
     },
     // {
     //   text: 'IOS',
@@ -148,22 +155,42 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: '简介',
       collapsed: false,
       items: [
-        { text: '什么是voicepie爱说派', link: 'what-is-voicepie' },
-        { text: '产品介绍', link: 'product-overview' },
-        { text: '快速开始', link: 'quick-start' }
+        { text: '产品概述', link: 'what-is-voicepie' },
+        { text: '下载安装', link: 'install' }
       ]
     },
     {
-      text: '产品指南',
+      text: '产品说明',
       collapsed: false,
       items: [
-        { text: '有线翻译耳机', link: 'cable' },
-        { text: 'TWS蓝牙耳机', link: 'Bluetooth' },
-        { text: '直播领夹麦', link: 'live microphone' }
+        { text: '有线翻译耳机', link: 'README-c1' },
+        { text: '蓝牙翻译耳机', link: 'README-w1' },
+        { text: '直播翻译设备', link: 'README-m1' }
       ]
     },
+    {
+      text: '核心功能',
+      collapsed: false,
+      items: [
+        { text: '场景模式', link: 'modes' },
+        { text: '播报设置', link: 'settings' },
+        { text: '语种选择', link: 'language' },
+        { text: '音色选择', link: 'tones' }
+      ]
+    },
+    // {
+    //   text: '设置与偏好',
+    //   collapsed: false,
+    //   items: [
+    //     // { text: '通话传译模式', link: 'README-c1' },
+    //     // { text: '在线直播模式', link: 'README-w1' },
+    //     // { text: '影音翻译模式', link: 'README-m1' },
+    //     // { text: '现场听译模式', link: 'README-m1' },
+    //     // { text: '面对面模式', link: 'README-m1' },
+    //   ]
+    // },
 
-    { text: '联系我们', link: 'contact-us' }
+    { text: '联系我们', link: 'faq' }
   ]
 }
 

@@ -12,6 +12,7 @@
 
 import DefaultTheme from 'vitepress/theme'
 import BilibiliPlayer from '../../components/BilibiliPlayer.vue'
+import Carousel from '../../components/Carousel.vue'
 // 删除 ImagePreview 的引入
 import './style.css'
 
@@ -19,6 +20,7 @@ export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {
     app.component('BilibiliPlayer', BilibiliPlayer)
+    app.component('Carousel', Carousel)
     // 删除 ImagePreview 组件注册
 
     // 添加 Fancybox 配置

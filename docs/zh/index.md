@@ -10,11 +10,11 @@ hero:
   tagline: 智能翻译，跨越时空，无缝连接每一次对话
   actions:
     - theme: brand
-      text: 什么是 voicepie爱说派?
+      text: 产品简介
       link: /guide/what-is-voicepie
     - theme: alt
-      text: 快速开始
-      link: /guide/quick-start
+      text: 下载安装
+      link: /guide/install
     # - theme: alt
     #   text: 下载
     #   link: /install
