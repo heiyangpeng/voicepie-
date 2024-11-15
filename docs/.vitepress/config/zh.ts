@@ -14,7 +14,8 @@ export const zh = defineConfig({
     sidebar: {
       '/guide/': { base: '/guide/', items: sidebarGuide() },
       // '/reference/': { base: '/reference/', items: sidebarReference() },
-      '/help/': { base: '/help/', items: sidebarHelp() }
+      '/help/': { base: '/help/', items: sidebarHelp() },
+      '/readme/': { base: '/readme/', items: sidebarreadme() }
     },
 
     // editLink: {
@@ -56,15 +57,22 @@ export const zh = defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
-      text: '指南',
-      items: [
-        { text: '有线翻译耳机', link: 'README-c1' },
-        { text: '蓝牙翻译耳机', link: 'README-w1' },
-        { text: '直播翻译设备', link: 'README-m1' }
-      ]
-      // link: '/guide/what-is-voicepie',
-      // activeMatch: '/guide/'
+      text: '合集',
+
+      link: '/readme/collection',
+      activeMatch: '/readme/'
     },
+    // {
+    //   text: '指南',
+    //   items: [
+    //     { text: '有线翻译耳机', link: '/guide//README-c1' },
+    //     { text: '蓝牙翻译耳机', link: '/guide/README-w1' },
+    //     { text: '直播翻译设备', link: '/guide/README-m1' }
+    //   ]
+    //   // link: '/guide/what-is-voicepie',
+    //   // activeMatch: '/guide/'
+    // },
+
     // {
     //   text: '参考',
     //   link: '/reference/site-config',
@@ -87,6 +95,41 @@ function nav(): DefaultTheme.NavItem[] {
     //       link: 'https://github.com/vuejs/vitepress/blob/main/.github/contributing.md'
     //     }
     //   ]
+    // }
+  ]
+}
+
+function sidebarreadme(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: '有线翻译耳机',
+      items: [
+        { text: 'android-c1', link: 'android-c1' },
+        { text: 'macos-c1', link: 'macos-c1' },
+        { text: 'windows-c1', link: 'windows-c1' }
+      ]
+      // link: '/guide/what-is-voicepie',
+      // activeMatch: '/guide/'
+    }
+    // {
+    //   text: 'TWS翻译耳机',
+    //   items: [
+    //     { text: 'android-w1',  link: 'android-w1' },
+    //     { text: 'macos-w1', link: 'macos-w1' },
+    //     { text: 'windows-w1', link: 'windows-w1' }
+    //   ]
+    //   // link: '/guide/what-is-voicepie',
+    //   // activeMatch: '/guide/'
+    // },
+    // {
+    //   text: '领夹麦翻译设备',
+    //   items: [
+    //     { text: 'android-m1',  link: 'android-m1' },
+    //     { text: 'macos-m1', link: 'macos-m1' },
+    //     { text: 'windows-m1', link: 'windows-m1' }
+    //   ]
+    //   // link: '/guide/what-is-voicepie',
+    //   // activeMatch: '/guide/'
     // }
   ]
 }
@@ -155,29 +198,40 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: '简介',
       collapsed: false,
       items: [
-        { text: '产品概述', link: 'what-is-voicepie' },
-        { text: '下载安装', link: 'install' }
+        { text: '产品概述', link: 'what-is-voicepie' }
+        // { text: '下载安装', link: 'install' }
       ]
     },
-    {
-      text: '产品说明',
-      collapsed: false,
-      items: [
-        { text: '有线翻译耳机', link: 'README-c1' },
-        { text: '蓝牙翻译耳机', link: 'README-w1' },
-        { text: '直播翻译设备', link: 'README-m1' }
-      ]
-    },
+    // {
+    //   text: '产品说明',
+    //   collapsed: false,
+    //   items: [
+    //     { text: '有线翻译耳机', link: 'README-c1' },
+    //     { text: '蓝牙翻译耳机', link: 'README-w1' },
+    //     { text: '直播翻译设备', link: 'README-m1' }
+    //   ]
+    // },
     {
       text: '核心功能',
       collapsed: false,
       items: [
-        { text: '场景模式', link: 'modes' },
+        { text: '翻译模式', link: 'modes' },
         { text: '播报设置', link: 'settings' },
-        { text: '语种选择', link: 'language' },
-        { text: '音色选择', link: 'tones' }
+        { text: '语种/音色选择', link: 'language' },
+        { text: '其它功能', link: 'other' }
       ]
     },
+    // {
+    //   text: '应用详解',
+    //   collapsed: false,
+    //   items: [
+    //     { text: 'android', link: 'android' },
+    //     { text: 'macOS', link: 'macos' },
+    //     { text: 'windows', link: 'windows' }
+
+    //     // { text: 'windows', link: '' }
+    //   ]
+    // },
     // {
     //   text: '设置与偏好',
     //   collapsed: false,

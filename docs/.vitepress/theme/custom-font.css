@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'customFont';
+  src: url('../../assets/DouyinSansBold.otf') format('truetype');
+}
+
+:root {
+  --vp-sidebar-width: 300px;
+  --vp-font-family-base: 'customFont';
+}

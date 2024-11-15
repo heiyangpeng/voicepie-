@@ -8,9 +8,13 @@ export const shared = defineConfig({
   vue: {
     template: {
       compilerOptions: {
-        isCustomElement: (tag) => ['iframe'].includes(tag)
+        // 添加 video 标签支持
+        isCustomElement: (tag) => ['iframe', 'video'].includes(tag)
       }
     }
+  },
+  vite: {
+    assetsInclude: ['**/*.mp4']
   },
 
   rewrites: {
@@ -115,26 +119,72 @@ export const shared = defineConfig({
       'style',
       {},
       `
+      /* 原有样式保持不变 */
       :root {
         --vp-home-hero-name-color: transparent;
         --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #4169e1 30%, #9370db);
       }
 
-      /* Fancybox 自定义样式 */
-      .fancybox__container {
-        --fancybox-bg: rgba(0, 0, 0, 0.85);
+      /* 优化视频容器样式 */
+      .video-container {
+        position: relative;
+        width: 100%;
+        max-width: 800px;
+        margin: 16px auto;
+        border-radius: 12px;
+        overflow: hidden;
+        background-color: #000;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        user-select: none;
+        -webkit-user-select: none;
       }
 
-      /* 文档中的图片样式 */
-      .vp-doc img {
-        cursor: zoom-in;
-        transition: all 0.3s ease;
+      .video-container::before {
+        content: "";
+        display: block;
+        padding-top: 56.25%; /* 16:9 比例 */
       }
 
-      .vp-doc img:hover {
-        transform: scale(1.02);
+      .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* 改为 cover 以填充整个区域 */
+        background-color: #000;
       }
-    `
+
+      /* 封面图优化 */
+      .video-container video[poster] {
+        object-fit: cover;
+        object-position: center center;
+      }
+
+      /* 控制栏样式优化 */
+      .video-container video::-webkit-media-controls-panel {
+        background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+      }
+
+      .video-container video::-webkit-media-controls-time-remaining-display,
+      .video-container video::-webkit-media-controls-current-time-display {
+        color: #fff;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+      }
+
+      /* 移动端优化 */
+      @media (max-width: 768px) {
+        .video-container {
+          margin: 12px auto;
+          border-radius: 8px;
+        }
+      }
+
+      /* 暗色模式适配 */
+      .dark .video-container {
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+      }
+      `
     ]
   ],
 
