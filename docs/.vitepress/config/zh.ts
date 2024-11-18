@@ -159,7 +159,7 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
     {
       text: 'macOS',
       collapsed: false,
-      items: [{ text: '系统音频设置', link: 'mac-sound' }]
+      items: [{ text: '听不到声音或不翻译', link: 'mac-sound' }]
     },
     {
       text: 'Windows',

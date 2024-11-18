@@ -95,10 +95,8 @@ const downloads = [
     icon: 'android',
     version: 'v194',
     links: {
-      global:
-        'https://usa-1a.oss-us-west-1.aliyuncs.com/voicepie/android/kikago_voicepie_v194_9920480_A_241104B.apk',
-      china:
-        'https://shenzhen-a.oss-cn-shenzhen.aliyuncs.com/icepi/android/kikago_voicepie_v194_9920480_A_241104B.apk'
+      global: 'https://kikago.tech/bridge/download',
+      china: 'https://kikago.tech/bridge/download'
     }
   }
 ]

@@ -12,37 +12,29 @@
 
 import DefaultTheme from 'vitepress/theme'
 import BilibiliPlayer from '../../components/BilibiliPlayer.vue'
-import Carousel from '../../components/Carousel.vue'
 import CustomUI from '../../components/CustomUI.vue'
 import DocCard from '../../components/DocCard.vue'
 import './custom-font.css'
-
-// 删除 ImagePreview 的引入
 import './style.css'
 
 export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {
+    // 注册组件
     app.component('BilibiliPlayer', BilibiliPlayer)
-    app.component('Carousel', Carousel)
     app.component('CustomUI', CustomUI)
     app.component('DocCard', DocCard)
 
-    // 删除 ImagePreview 组件注册
-
-    // 添加 Fancybox 配置
+    // 添加字体预加载
     if (typeof window !== 'undefined') {
       window.addEventListener('load', () => {
-        // @ts-ignore
-        Fancybox.bind('[data-fancybox]', {
-          // Fancybox 配置选项
-          infinite: true,
-          keyboard: true,
-          zoom: true,
-          wheel: 'slide',
-          touch: true,
-          buttons: ['zoom', 'slideShow', 'fullScreen', 'close']
-        })
+        const link = document.createElement('link')
+        link.rel = 'preload'
+        link.href = '/assets/DouyinSansBold.woff2'
+        link.as = 'font'
+        link.type = 'font/woff2'
+        link.crossOrigin = 'anonymous'
+        document.head.appendChild(link)
       })
     }
   }

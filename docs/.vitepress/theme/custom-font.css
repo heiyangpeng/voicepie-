@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'customFont';
-  src: url('../../assets/DouyinSansBold.otf') format('truetype');
+  src: url('../../assets/DouyinSansBold.woff2') format('truetype');
+  font-display: swap;
 }
 
 :root {

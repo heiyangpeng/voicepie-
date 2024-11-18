@@ -18,78 +18,79 @@
 
 ## Android
 
-<div class="cards-container">
-  <div class="card" >
-    <a href="/help/chongfu"></a>
-    使用时出现重复翻译
-  </div>
-</div>
-<div class="cards-container">
-  <div class="card" >
-    <a href="/help/common-accuracy"></a>
-    使用时翻译不准确
-  </div>
-</div>
-<div class="cards-container">
-  <div class="card" >
-    <a href="/help/huawei-audio"></a>
-    华为荣耀面对面设置
-  </div>
-</div>
-<div class="cards-container">
-  <div class="card" >
-    <a href="/help/nosound"></a>
-    使用翻译时没有声音
-  </div>
-</div>
-<div class="cards-container">
-  <div class="card" >
-    <a href="/help/unidentified"></a>
-    耳机设备插入未识别
-  </div>
-</div>
+<DocCard :cards="[
+  {
+    title: '使用时出现重复翻译',
+    description: '',
+    avatar: '/img/常见问题.png',
+    path: '/help/chongfu'
+  },
+  {
+    title: '华为荣耀面对面设置',
+    description: '',
+    avatar: '/img/常见问题.png',
+    path: '/help/huawei-audio'
+  },
+    {
+    title: '使用翻译时没有声音',
+    description: '',
+    avatar: '/img/常见问题.png',
+    path: '/help/nosound'
+  },  {
+    title: '耳机设备插入未识别',
+    description: '',
+    avatar: '/img/常见问题.png',
+    path: '/help/unidentified'
+  },
+]" />
 
 ## windows
 
-<div class="cards-container">
-  <div class="card" >
-    <a href="/help/windows-1"></a>
-    安装失败!文件不存在!
-  </div>
-</div>
-<div class="cards-container">
-  <div class="card" >
-    <a href="/help/windows-2"></a>
-    遇到驱动报错[代码52]
-  </div>
-</div>
-<div class="cards-container">
-  <div class="card" >
-    <a href="/help/windows-3"></a>
-    干净卸载驱动程序
-  </div>
-</div>
-<div class="cards-container">
-  <div class="card" >
-    <a href="/help/windows-3"></a>
-    无法与服务器建立连接
-  </div>
-</div>
+<DocCard :cards="[
+  {
+    title: '安装失败!文件不存在!',
+    description: '',
+    avatar: '/img/常见问题.png',
+    path: '/help/windows-1'
+  },
+  {
+    title: '遇到驱动报错[代码52]',
+    description: '',
+    avatar: '/img/常见问题.png',
+    path: '/help/windows-2'
+  },
+  {
+    title: '干净卸载驱动程序',
+    description: '',
+    avatar: '/img/常见问题.png',
+    path: '/help/windows-3'
+  },
+    {
+    title: '无法与服务器建立连接',
+    description: '',
+    avatar: '/img/常见问题.png',
+    path: '/help/windows-4'
+  },
+]" />
 
 ## macOS
 
-<div class="cards-container">
-  <div class="card" >
-    <a href="/help/mac-sound"></a>
-    系统音频设置
-  </div>
-</div>
+<DocCard :cards="[
+  {
+    title: '听不到声音或不翻译',
+    description: '',
+    avatar: '/img/常见问题.png',
+    path: '/help/mac-sound'
+  },
+]" />
 
 ## 通用问题
 
-<div class="cards-container">
-  <div class="card" >
-    <a href="/help/common-accuracy"></a>
-    使用时翻译不准确
-  </div>
-</div>
+<DocCard :cards="[
+  {
+    title: '使用时翻译不准确',
+    description: '',
+    avatar: '/img/常见问题.png',
+    path: '/help/common-accuracy'
+  },
+]" />
