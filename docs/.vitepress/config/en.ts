@@ -24,7 +24,7 @@ export const en = defineConfig({
 
     footer: {
       message: 'I bring the language, you own the world',
-      copyright: `All rights reserved © 2019-${new Date().getFullYear()} voicepie爱说派`
+      copyright: `All rights reserved © 2019-${new Date().getFullYear()} voicepie`
     }
   }
 })

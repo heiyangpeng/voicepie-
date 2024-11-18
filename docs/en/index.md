@@ -1,22 +1,22 @@
 ---
 layout: home
 
-title: voicepie爱说派
+title: voicepie
 titleTemplate:
 
 hero:
-  name: voicepie爱说派
+  name: voicepie
   text: Connect the world
   tagline: Smart translation, seamless conversations
   actions:
     - theme: brand
-      text: What is voicepie爱说派?
-      link: /en/guide/what-is-vitepress
+      text: What is voicepie?
+      link: /en/what-is-vitepress
     - theme: alt
-      text: Quickstart
-      link: /en/guide/getting-started
+      text: Download
+      link: /en/guide/install
     # - theme: alt
-    #   text: Download
+    #   text: Download1
     #   link: /install
   image:
     src: /vitepress-logo-large.webp

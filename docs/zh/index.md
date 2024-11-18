@@ -1,17 +1,17 @@
 ---
 layout: home
 
-title: voicepie爱说派
+title: 爱说派
 titleTemplate:
 
 hero:
-  name: voicepie爱说派
+  name: 爱说派
   text: 简化沟通，连接世界
   tagline: 智能翻译，跨越时空，无缝连接每一次对话
   actions:
     - theme: brand
-      text: 产品简介
-      link: /guide/what-is-voicepie
+      text: 快速上手
+      link: /readme/collection
     - theme: alt
       text: 下载安装
       link: /guide/install

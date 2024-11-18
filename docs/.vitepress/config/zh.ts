@@ -25,7 +25,7 @@ export const zh = defineConfig({
 
     footer: {
       message: '我带来语言，你拥有世界',
-      copyright: `版权所有 © 2019-${new Date().getFullYear()} voicepie爱说派`
+      copyright: `版权所有 © 2019-${new Date().getFullYear()} 爱说派`
     },
 
     docFooter: {
@@ -57,7 +57,7 @@ export const zh = defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
-      text: '合集',
+      text: '产品说明',
 
       link: '/readme/collection',
       activeMatch: '/readme/'
@@ -102,35 +102,36 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebarreadme(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: '有线翻译耳机',
+      text: 'TransBuds 有线通话翻译耳机',
       items: [
-        { text: 'android-c1', link: 'android-c1' },
-        { text: 'macos-c1', link: 'macos-c1' },
-        { text: 'windows-c1', link: 'windows-c1' }
+        { text: 'android', link: 'android-c1' },
+        { text: 'macos', link: 'macos-c1' },
+        { text: 'windows', link: 'windows-c1' }
       ]
       // link: '/guide/what-is-voicepie',
       // activeMatch: '/guide/'
-    }
-    // {
-    //   text: 'TWS翻译耳机',
-    //   items: [
-    //     { text: 'android-w1',  link: 'android-w1' },
-    //     { text: 'macos-w1', link: 'macos-w1' },
-    //     { text: 'windows-w1', link: 'windows-w1' }
-    //   ]
-    //   // link: '/guide/what-is-voicepie',
-    //   // activeMatch: '/guide/'
-    // },
-    // {
-    //   text: '领夹麦翻译设备',
-    //   items: [
-    //     { text: 'android-m1',  link: 'android-m1' },
-    //     { text: 'macos-m1', link: 'macos-m1' },
-    //     { text: 'windows-m1', link: 'windows-m1' }
-    //   ]
-    //   // link: '/guide/what-is-voicepie',
-    //   // activeMatch: '/guide/'
-    // }
+    },
+    {
+      text: 'TransBuds W1 Al通话翻译耳机',
+      items: [
+        { text: 'android', link: 'android-w1' },
+        { text: 'macos', link: 'macos-w1' },
+        { text: 'windows', link: 'windows-w1' }
+      ]
+      // link: '/guide/what-is-voicepie',
+      // activeMatch: '/guide/'
+    },
+    {
+      text: 'TransMic 无线翻译领夹麦',
+      items: [
+        { text: 'android', link: 'android-m1' },
+        { text: 'macos', link: 'macos-m1' },
+        { text: 'windows', link: 'windows-m1' }
+      ]
+      // link: '/guide/what-is-voicepie',
+      // activeMatch: '/guide/'
+    },
+    { text: 'dongle 蓝牙接收器', link: 'dongle' }
   ]
 }
 
@@ -198,8 +199,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: '简介',
       collapsed: false,
       items: [
-        { text: '产品概述', link: 'what-is-voicepie' }
-        // { text: '下载安装', link: 'install' }
+        { text: '产品概述', link: 'what-is-voicepie' },
+        { text: '下载安装', link: 'install' }
       ]
     },
     // {

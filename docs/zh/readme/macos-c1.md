@@ -27,7 +27,7 @@
 
 ## 使用教程
 
-1. 在MacBook上安装好爱说派应用程序，暂时先不打开
+1. 在MacBook上安装好爱说派应用程序
 
 ![](https://bu.dusays.com/2024/11/14/6735d13ddf7fe.png)
 
@@ -53,7 +53,7 @@
 
 ![](https://bu.dusays.com/2024/11/14/6735d13decbdc.png)
 
-## 核心功能
+## 功能详解
 
 <DocCard :cards="[
   {

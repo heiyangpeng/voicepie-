@@ -1,6 +1,6 @@
-# 教程合集
+# 产品说明书
 
-## 有线翻译耳机
+## TransBuds 有线通话翻译耳机
 
 <DocCard :cards="[
   {
@@ -23,51 +23,48 @@
   }
 ]" />
 
-<!--
-
-## TWS翻译耳机
+## TransBuds W1 Al通话翻译耳机
 
 <DocCard :cards="[
   {
-    title: 'TWS翻译耳机在android上使用',
+    title: '蓝牙翻译耳机在android上使用',
     description: '',
     avatar: '/img/安卓_手机.png',
-    path: '/readme-c1/android'
+    path: '/readme/android-w1'
   },
   {
-    title: 'TWS翻译耳机在windows上使用',
+    title: '蓝牙翻译耳机在windows上使用',
     description: '',
     avatar: '/img/电脑.png',
-    path: '/guide/fomalhaut'
+    path: '/readme/windows-w1'
   },
   {
-    title: 'TWS翻译耳机在macOS上使用',
+    title: '蓝牙翻译耳机在macOS上使用',
     description: '',
     avatar: '/img/苹果电脑.png',
-    path: '/guide/jayhrn'
+    path: '/readme/macos-w1'
   }
 ]" />
 
-## 领夹麦设备
+## TransMic 无线翻译领夹麦
 
 <DocCard :cards="[
   {
-    title: '领夹麦设备在android上使用',
+    title: '无线翻译领夹麦在android上使用',
     description: '',
     avatar: '/img/安卓_手机.png',
-    path: '/readme-c1/android'
+    path: '/readme/android-m1'
   },
   {
-    title: '领夹麦设备在windows上使用',
+    title: '无线翻译领夹麦在windows上使用',
     description: '',
     avatar: '/img/电脑.png',
-    path: '/guide/fomalhaut'
+    path: '/readme/windows-m1'
   },
   {
-    title: '领夹麦设备在macOS上使用',
+    title: '无线翻译领夹麦在macOS上使用',
     description: '',
     avatar: '/img/苹果电脑.png',
-    path: '/guide/jayhrn'
+    path: '/readme/macos-m1'
   }
 ]" />
- -->
