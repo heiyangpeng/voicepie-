@@ -68,3 +68,14 @@
     path: '/readme/macos-m1'
   }
 ]" />
+
+## 其它设备
+
+<DocCard :cards="[
+  {
+    title: '蓝牙接收器',
+    description: '',
+    avatar: '/img/接收器.png',
+    path: '/readme/dongle'
+  },
+]" />

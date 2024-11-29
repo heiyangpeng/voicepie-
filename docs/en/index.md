@@ -10,8 +10,8 @@ hero:
   tagline: Smart translation, seamless conversations
   actions:
     - theme: brand
-      text: What is voicepie?
-      link: /en/what-is-vitepress
+      text: Quick Guide
+      link: /en/readme/collection
     - theme: alt
       text: Download
       link: /en/guide/install

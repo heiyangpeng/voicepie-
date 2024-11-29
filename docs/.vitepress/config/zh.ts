@@ -108,8 +108,6 @@ function sidebarreadme(): DefaultTheme.SidebarItem[] {
         { text: 'macos', link: 'macos-c1' },
         { text: 'windows', link: 'windows-c1' }
       ]
-      // link: '/guide/what-is-voicepie',
-      // activeMatch: '/guide/'
     },
     {
       text: 'TransBuds W1 Al通话翻译耳机',
@@ -118,8 +116,6 @@ function sidebarreadme(): DefaultTheme.SidebarItem[] {
         { text: 'macos', link: 'macos-w1' },
         { text: 'windows', link: 'windows-w1' }
       ]
-      // link: '/guide/what-is-voicepie',
-      // activeMatch: '/guide/'
     },
     {
       text: 'TransMic 无线翻译领夹麦',
@@ -131,7 +127,7 @@ function sidebarreadme(): DefaultTheme.SidebarItem[] {
       // link: '/guide/what-is-voicepie',
       // activeMatch: '/guide/'
     },
-    { text: 'dongle 蓝牙接收器', link: 'dongle' }
+    { text: '蓝牙接收器', link: 'dongle' }
   ]
 }
 

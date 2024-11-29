@@ -12,8 +12,10 @@ export const en = defineConfig({
     nav: nav(),
 
     sidebar: {
-      '/en/help/': { base: '/en/help/', items: sidebarHelp() }
-      // '/en/guide/': { base: '/en/guide/', items: sidebarGuide() },
+      '/en/help/': { base: '/en/help/', items: sidebarHelp() },
+      '/en/guide/': { base: '/en/guide/', items: sidebarGuide() },
+      '/en/readme/': { base: '/en/readme/', items: sidebarreadme() }
+
       // '/en/reference/': { base: '/en/reference/', items: sidebarReference() }
     },
 
@@ -31,6 +33,12 @@ export const en = defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
   return [
+    {
+      text: 'Product Manual',
+
+      link: '/en/readme/collection',
+      activeMatch: '/en/readme/'
+    },
     {
       text: 'Help&Support',
       link: '/en/help/preface',
@@ -62,10 +70,42 @@ function nav(): DefaultTheme.NavItem[] {
   ]
 }
 
+function sidebarreadme(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: 'TransBuds',
+      items: [
+        { text: 'android', link: 'android-c1' },
+        { text: 'macos', link: 'macos-c1' },
+        { text: 'windows', link: 'windows-c1' }
+      ]
+    },
+    {
+      text: 'TransBuds W1',
+      items: [
+        { text: 'android', link: 'android-w1' },
+        { text: 'macos', link: 'macos-w1' },
+        { text: 'windows', link: 'windows-w1' }
+      ]
+    },
+    {
+      text: 'TransMic',
+      items: [
+        { text: 'android', link: 'android-m1' },
+        { text: 'macos', link: 'macos-m1' },
+        { text: 'windows', link: 'windows-m1' }
+      ]
+      // link: '/guide/what-is-voicepie',
+      // activeMatch: '/guide/'
+    },
+    { text: 'Bluetooth receiver', link: 'dongle' }
+  ]
+}
+
 function sidebarHelp(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'Product Usage Notes',
+      text: 'Product Usage Notes ',
       collapsed: false,
       items: [
         { text: 'System Requirements', link: 'system' },
@@ -81,7 +121,7 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
     //   ]
     // },
     {
-      text: 'Android',
+      text: 'Android FAQ',
       collapsed: false,
       items: [
         // { text: 'mtk芯片实体通话无法使用', link: 'mtk' },
@@ -93,7 +133,7 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
       ]
     },
     {
-      text: 'macOS',
+      text: 'macOS FAQ',
       collapsed: false,
       items: [{ text: 'System audio settings', link: 'mac-sound' }]
     },
@@ -105,6 +145,16 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
     //     // { text: '必要权限', link: 'competence' },
     //   ]
     // },
+    {
+      text: 'Windows FAQ',
+      collapsed: false,
+      items: [
+        { text: 'Clean Uninstall Driver', link: 'windows-3' },
+        { text: 'Installation Failed: File Not Found!', link: 'windows-1' },
+        { text: 'Driver Error [Code 52]', link: 'windows-2' },
+        { text: 'Unable to Connect to Server', link: 'windows-4' }
+      ]
+    },
     {
       text: 'General Issues',
       collapsed: false,
@@ -118,54 +168,30 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-// function sidebarGuide(): DefaultTheme.SidebarItem[] {
-//   return [
-//     {
-//       text: 'Introduction',
-//       collapsed: false,
-//       items: [
-//         { text: 'What is VitePress?', link: 'what-is-vitepress' },
-//         { text: 'Getting Started', link: 'getting-started' },
-//         { text: 'Routing', link: 'routing' },
-//         { text: 'Deploy', link: 'deploy' }
-//       ]
-//     },
-//     {
-//       text: 'Writing',
-//       collapsed: false,
-//       items: [
-//         { text: 'Markdown Extensions', link: 'markdown' },
-//         { text: 'Asset Handling', link: 'asset-handling' },
-//         { text: 'Frontmatter', link: 'frontmatter' },
-//         { text: 'Using Vue in Markdown', link: 'using-vue' },
-//         { text: 'Internationalization', link: 'i18n' }
-//       ]
-//     },
-//     {
-//       text: 'Customization',
-//       collapsed: false,
-//       items: [
-//         { text: 'Using a Custom Theme', link: 'custom-theme' },
-//         {
-//           text: 'Extending the Default Theme',
-//           link: 'extending-default-theme'
-//         },
-//         { text: 'Build-Time Data Loading', link: 'data-loading' },
-//         { text: 'SSR Compatibility', link: 'ssr-compat' },
-//         { text: 'Connecting to a CMS', link: 'cms' }
-//       ]
-//     },
-//     {
-//       text: 'Experimental',
-//       collapsed: false,
-//       items: [
-//         { text: 'MPA Mode', link: 'mpa-mode' },
-//         { text: 'Sitemap Generation', link: 'sitemap-generation' }
-//       ]
-//     },
-//     { text: 'Config & API Reference', base: '/reference/', link: 'site-config' }
-//   ]
-// }
+function sidebarGuide(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: 'Introduction',
+      collapsed: false,
+      items: [
+        { text: 'Product Overview', link: 'what-is-voicepie' },
+        { text: 'Download', link: 'install' }
+      ]
+    },
+    {
+      text: 'Detailed Features',
+      collapsed: false,
+      items: [
+        { text: 'Translation Mode', link: 'modes' },
+        { text: 'Broadcast Settings', link: 'settings' },
+        { text: 'Language/Voice Selection', link: 'language' },
+        { text: 'Other Features', link: 'other' }
+      ]
+    },
+
+    { text: 'Contact Us', link: 'faq' }
+  ]
+}
 
 // function sidebarReference(): DefaultTheme.SidebarItem[] {
 //   return [
