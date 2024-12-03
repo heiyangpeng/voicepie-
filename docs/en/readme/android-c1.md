@@ -73,6 +73,8 @@
 <small>4. If Floating Ball doesn't appear, try reinserting the device.<br></small>
 </strong>
 
+![](https://bu.dusays.com/2024/12/03/674ecf9b847b5.png)
+
 ## Detailed Features
 
 <DocCard :cards="[

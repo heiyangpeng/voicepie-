@@ -14,14 +14,12 @@ import DownloadPage from '/components/Downloadpage.vue'
 
 # 系统支持
 
-:::tip
+:::tip **安卓**：兼容系统版本最低Android 10，推荐使用12以上的版本。
 
-**安卓**：兼容系统版本最低Android 10，推荐使用12以上的版本。
+**PC**：仅支持win10和win11系统，推荐使用win10系统。
 
-**windows**：Windows仅支持win10和win11系统，推荐使用win10系统。
+**苹果电脑**：暂且仅支持M芯片。
 
-**苹果电脑**：macOS暂且仅支持M芯片。
-
-**苹果手机**：IOS暂且仅支持iPhone15系列以上。
+**苹果手机**：暂不支持苹果手机
 
 :::

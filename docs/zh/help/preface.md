@@ -11,10 +11,33 @@
 :::warning 注意事项
 若有升级更新，请升级到最新APP版本，旧版本可能存在遗留bug。
 
-安装APP时同意并给予所有权限，请勿跳过，若拒绝或跳过请关掉APP后台，重新打开给予权限。
+安装APP时同意并给予所有权限，请勿跳过！
 :::
 
 <!-- <div class="cards-container"> -->
+
+## 通用问题
+
+<DocCard :cards="[
+    {
+    title: '多端系统支持条件',
+    description: '',
+    avatar: '/img/常见问题.png',
+    path: '/help/system'
+  },
+  {
+    title: '使用时翻译不准确',
+    description: '',
+    avatar: '/img/常见问题.png',
+    path: '/help/common-accuracy'
+  },
+  {
+    title: '必要授予权限设置',
+    description: '',
+    avatar: '/img/常见问题.png',
+    path: '/help/competence'
+  },
+]" />
 
 ## Android使用问题
 
@@ -41,6 +64,12 @@
     description: '',
     avatar: '/img/常见问题.png',
     path: '/help/unidentified'
+  },
+    {
+    title: '对方听不到翻译的声音',
+    description: '',
+    avatar: '/img/常见问题.png',
+    path: '/help/hear'
   },
 ]" />
 
@@ -81,16 +110,5 @@
     description: '',
     avatar: '/img/常见问题.png',
     path: '/help/mac-sound'
-  },
-]" />
-
-## 通用问题
-
-<DocCard :cards="[
-  {
-    title: '使用时翻译不准确',
-    description: '',
-    avatar: '/img/常见问题.png',
-    path: '/help/common-accuracy'
   },
 ]" />

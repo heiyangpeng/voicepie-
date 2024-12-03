@@ -78,4 +78,10 @@
     avatar: '/img/接收器.png',
     path: '/readme/dongle'
   },
+    {
+    title: 'iPhone定制直播设备',
+    description: '',
+    avatar: '/img/接收器.png',
+    path: '/readme/iphone-custom'
+  },
 ]" />

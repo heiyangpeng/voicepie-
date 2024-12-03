@@ -64,18 +64,19 @@ Dongle Light Indicators
 <CustomUI type="tabs" :tabLabels="['android', 'windows', 'macOS']">
   <template #tab-1>
 
-::: warning
-When first inserting the receiver and <big><code>Floating Ball</code></big> doesn't appear, unplug and replug once. This step won't be needed afterward.
+::: warning <font style="color: red">Note:</font> Please accept <a href="/help/competence">required permissions</a> when opening the app
 
-Accept any permission requests that appear
+<a href="/guide/other#floating-ball">Floating Ball</a> requires device insertion and permissions before appearing on your phone's screen
 :::
 
-1. Insert receiver, open <big><code>voicepie APP</code></big>, accept permission requests when prompted.<br>
-2. On the home page, select <big><code>Industry Scene, Translation Voice and Language</code></big>.<br>
-3. Click the middle button at the bottom, select <big><code>Translation Mode</code></big>.<br>
-4. Start using real-time translation.<br>
+<strong>
+<small>1. Launch Voicepie app, accept permissions if prompted.<br></small>
+<small>2. Insert Voicepie device and grant overlay permissions.<br></small>
+<small>3. After setup, enter main interface to use translation features.<br></small>
+<small>4. If Floating Ball doesn't appear, try reinserting the device.<br></small>
+</strong>
 
-![使用翻译](https://bu.dusays.com/2024/11/14/6735bd925fb9f.png)
+![使用翻译](https://bu.dusays.com/2024/12/03/674ecf9b847b5.png)
 
   </template>
   <template #tab-2>

@@ -21,4 +21,5 @@ For <font size=3><code>offline meetings, travel or lectures</code></font>, captu
 
 Instant translation during conversations with <big><code>seamless dialogue</code></big>, ready to use instantly
 :::
-![使用翻译](https://bu.dusays.com/2024/11/14/6735c9419594c.png)
+
+![使用翻译](https://bu.dusays.com/2024/12/03/674ecf95d00b8.png)

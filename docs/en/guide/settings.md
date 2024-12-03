@@ -10,3 +10,5 @@
 
 - Translation Output [Me]: When off, others won't hear your translated voice
   :::
+
+![](https://bu.dusays.com/2024/12/03/674ecf9c1d71a.png)

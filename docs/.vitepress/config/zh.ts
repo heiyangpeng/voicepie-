@@ -127,7 +127,8 @@ function sidebarreadme(): DefaultTheme.SidebarItem[] {
       // link: '/guide/what-is-voicepie',
       // activeMatch: '/guide/'
     },
-    { text: '蓝牙接收器', link: 'dongle' }
+    { text: '蓝牙接收器', link: 'dongle' },
+    { text: '苹果手机直播定制设备', link: 'iphone-custom' }
   ]
 }
 
@@ -139,6 +140,14 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
       items: [
         { text: '系统支持', link: 'system' },
         { text: '必要权限', link: 'competence' }
+      ]
+    },
+    {
+      text: '通用问题',
+      collapsed: false,
+      items: [
+        { text: '使用时翻译不准确', link: 'common-accuracy' }
+        // { text: '', link: '' },
       ]
     },
     {
@@ -167,7 +176,7 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
         { text: '遇到驱动报错[代码52]', link: 'windows-2' },
         { text: '无法与服务器建立连接', link: 'windows-4' }
       ]
-    },
+    }
     // {
     //   text: 'IOS',
     //   collapsed: false,
@@ -176,14 +185,6 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
     //     // { text: '必要权限', link: 'competence' },
     //   ]
     // },
-    {
-      text: '通用问题',
-      collapsed: false,
-      items: [
-        { text: '使用时翻译不准确', link: 'common-accuracy' }
-        // { text: '', link: '' },
-      ]
-    }
 
     // { text: '常用问题', base: '/help/', link: 'currency' }
   ]
