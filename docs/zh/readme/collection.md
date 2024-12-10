@@ -1,4 +1,4 @@
-# 产品说明书
+# 产品使用教程
 
 ## TransBuds 有线通话翻译耳机
 
@@ -69,19 +69,36 @@
   }
 ]" />
 
-## 其它设备
+## AI精灵
 
 <DocCard :cards="[
   {
-    title: '蓝牙接收器',
+    title: 'AI精灵在android上使用',
     description: '',
-    avatar: '/img/接收器.png',
-    path: '/readme/dongle'
+    avatar: '/img/安卓_手机.png',
+    path: '/readme/android-d1'
   },
+  {
+    title: 'AI精灵在windows上使用',
+    description: '',
+    avatar: '/img/电脑.png',
+    path: '/readme/windows-d1'
+  },
+  {
+    title: 'AI精灵在macOS上使用',
+    description: '',
+    avatar: '/img/苹果电脑.png',
+    path: '/readme/macos-d1'
+  }
+]" />
+
+## 其它设备
+
+<DocCard :cards="[
     {
     title: 'iPhone定制直播设备',
     description: '',
-    avatar: '/img/接收器.png',
+    avatar: '/img/定制设备.png',
     path: '/readme/iphone-custom'
   },
 ]" />

@@ -3,7 +3,7 @@ import { search as zhSearch } from './zh'
 import mdItCustomAttrs from 'markdown-it-custom-attrs'
 
 export const shared = defineConfig({
-  title: 'voicepie爱说派',
+  title: 'voicepie愛說派',
 
   vue: {
     template: {
@@ -189,7 +189,15 @@ export const shared = defineConfig({
   ],
 
   themeConfig: {
-    logo: { src: '/vitepress-logo-mini.svg', width: 27, height: 27 },
+    // logo: { src: '/vitepress-logo-mini.svg', width: 27, height: 27 },
+    siteTitle: false,
+
+    logo: {
+      light: '/img.svg',
+      dark: '/logo-full-dark.svg',
+      width: 200,
+      height: 40
+    },
 
     search: {
       provider: 'algolia',

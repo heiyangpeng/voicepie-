@@ -5,7 +5,7 @@ title: voicepie
 titleTemplate:
 
 hero:
-  name: voicepie
+  # name: voicepie
   text: Connect the world
   tagline: Smart translation, seamless conversations
   actions:

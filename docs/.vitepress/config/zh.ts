@@ -25,7 +25,7 @@ export const zh = defineConfig({
 
     footer: {
       message: '我带来语言，你拥有世界',
-      copyright: `版权所有 © 2019-${new Date().getFullYear()} 爱说派`
+      copyright: `版权所有 © 2019-${new Date().getFullYear()} kikaGO`
     },
 
     docFooter: {
@@ -57,7 +57,7 @@ export const zh = defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
-      text: '产品说明',
+      text: '使用教程',
 
       link: '/readme/collection',
       activeMatch: '/readme/'
@@ -127,26 +127,38 @@ function sidebarreadme(): DefaultTheme.SidebarItem[] {
       // link: '/guide/what-is-voicepie',
       // activeMatch: '/guide/'
     },
-    { text: '蓝牙接收器', link: 'dongle' },
+    {
+      text: '蓝牙接收器',
+      items: [
+        { text: 'android', link: 'android-d1' },
+        { text: 'macos', link: 'macos-d1' },
+        { text: 'windows', link: 'windows-d1' }
+      ]
+      // link: '/guide/what-is-voicepie',
+      // activeMatch: '/guide/'
+    },
+
     { text: '苹果手机直播定制设备', link: 'iphone-custom' }
   ]
 }
 
 function sidebarHelp(): DefaultTheme.SidebarItem[] {
   return [
-    {
-      text: '产品使用前预知',
-      collapsed: false,
-      items: [
-        { text: '系统支持', link: 'system' },
-        { text: '必要权限', link: 'competence' }
-      ]
-    },
+    // {
+    //   text: '产品使用前预知',
+    //   collapsed: false,
+    //   items: [
+    //     { text: '系统支持', link: 'system' },
+    //     { text: '必要权限', link: 'competence' }
+    //   ]
+    // },
     {
       text: '通用问题',
       collapsed: false,
       items: [
-        { text: '使用时翻译不准确', link: 'common-accuracy' }
+        { text: '多端系统支持条件', link: 'system' },
+        { text: '使用时翻译不准确', link: 'common-accuracy' },
+        { text: '必要授予权限设置', link: 'competence' }
         // { text: '', link: '' },
       ]
     },

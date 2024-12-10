@@ -25,3 +25,8 @@
     --vp-home-hero-image-filter: blur(68px);
   }
 }
+
+.VPNavBarTitle .logo {
+  height: 30px !important; /* 调整高度 */
+  width: auto !important; /* 保持宽高比 */
+}

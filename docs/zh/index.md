@@ -5,7 +5,8 @@ title: 爱说派
 titleTemplate:
 
 hero:
-  name: 爱说派
+  # name: '<img src="/voicepie.svg" alt="爱说派" class="hero-logo" style="height: 60px; width: auto; vertical-align: middle; transform: translateX(-65px);" />'
+
   text: 简化沟通，连接世界
   tagline: 智能翻译，跨越时空，无缝连接每一次对话
   actions:

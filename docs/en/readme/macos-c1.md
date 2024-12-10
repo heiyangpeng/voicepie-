@@ -28,29 +28,29 @@
 
 1. Install voicepie App on MacBook
 
-![](https://bu.dusays.com/2024/11/14/6735d13ddf7fe.png)
+![](https://bu.dusays.com/2024/12/07/6753f6be9ea0a.jpg)
 
 2. Launch the app and insert earphones, wait for app initialization
 
-![](https://bu.dusays.com/2024/11/14/6735d13dd0f76.png)
+![](https://bu.dusays.com/2024/12/07/6753f6bd7d9dd.png)
 
 3. Enter App main interface after successful earphone recognition
 
-![](https://bu.dusays.com/2024/11/14/6735d13dcd997.png)
+![](https://bu.dusays.com/2024/12/07/6753f6bd85037.png)
 
 4. <font style="color: red">Note</font>: Before starting translation, ensure Mac's audio input/output is set to <big><code>kikago.ai enc headphone</code></big>
 
-![](https://bu.dusays.com/2024/11/14/6735d13dc9d03.png)
+![](https://bu.dusays.com/2024/12/07/6753f6be33ddb.png)
 
-![](https://bu.dusays.com/2024/11/14/6735d13dc9d08.png)
+![](https://bu.dusays.com/2024/12/07/6753f6bf6beb6.png)
 
 5. Start real-time translation - smooth communication without barriers
 
-![](https://bu.dusays.com/2024/11/14/6735d6d9ae781.png)
+![](https://bu.dusays.com/2024/12/07/6753f6c3a08ab.png)
 
 ## App Interface
 
-![](https://bu.dusays.com/2024/11/14/6735d13decbdc.png)
+![](https://bu.dusays.com/2024/12/07/6753f99c38c82.png)
 
 ## Detailed Features
 
