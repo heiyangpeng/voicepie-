@@ -26,9 +26,13 @@
 
 ## 找到并右键 kikaGO.AI ENC Headphon
 
-- 在图一中找到 <code>音频处理器对象（APO）</code>（没有请点击图二方框中刷新按钮 - 可多点击几次）
+- 在图一中找到 <code>音频处理器对象(APO)</code>[没有请点击图二方框中刷新按钮 - 可多点击几次]
 - 右键 <code>kikaGO.AI ENC Headphone</code>
 - 点击 卸载设备
+
+::: warning 注意：如果<code>音频处理器对象(APO)</code>中没有请刷新后在<code>声音、视频和游戏控制器</code>中查找
+
+:::
 
 ![](https://bu.dusays.com/2024/11/07/672c312eca41b.webp)
 

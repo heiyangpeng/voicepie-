@@ -10,3 +10,13 @@
 <!-- ## 苹果权限（IOS）
 
 ![IOS](https://bu.dusays.com/2024/10/29/6720906e4adbf.png) -->
+
+## iOS权限
+
+### 第一步
+
+![iOS](https://bu.dusays.com/2024/12/25/676bcb59796f9.png)
+
+### 第二步
+
+![iOS](https://bu.dusays.com/2024/12/25/676bcb57a2524.png)

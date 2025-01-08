@@ -1,4 +1,4 @@
-# Product Instructions
+# Product Tutorials
 
 ## TransBuds Wired Translation Earphones
 

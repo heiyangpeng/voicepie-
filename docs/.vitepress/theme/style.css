@@ -30,3 +30,23 @@
   height: 30px !important; /* 调整高度 */
   width: auto !important; /* 保持宽高比 */
 }
+
+.badge {
+  background-color: #428bca;
+  color: #fff;
+  padding: 4px 6px;
+  border-radius: 3px;
+  font-size: 1em; /* 根据需要调整字号，如16px或1.1em */
+}
+
+.circle-badge {
+  display: inline-block;
+  background-color: #928787;
+  color: #fff;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 18px;
+  font-weight: bold;
+}

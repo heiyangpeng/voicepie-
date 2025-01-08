@@ -1,8 +1,10 @@
-# Al通话翻译耳机在windows上使用
+# 有线通话翻译耳机在windows上使用
 
 ::: tip 💡本文为初次接触或对爱说派应用使用不熟悉的用户提供详细操作指南，让您轻松上手。
-❗️<font style="color: red">仅支持windows10/11系统，使用前需网络环境良好</font>
+❗️<font style="color: red">仅支持windows10/11 64位系统，使用前需确保网络环境良好</font>
 :::
+
+![](https://bu.dusays.com/2025/01/06/677b7bac9b3e0.png)
 
 ## 下载应用
 
@@ -69,12 +71,9 @@
 
 ## 使用说明
 
-<strong>
-<small>1. 电脑先插入<big><code>AI翻译棒（简称接收端）</code></big>，同时拿出蓝牙耳机佩戴上，耳机自动连接上<big><code>接收端</code></big>，<font style="color: red">无需进行电脑蓝牙连接耳机</font>，<br></small>
-<small>2. 稍等片刻，打开<big><code>爱说派APP</code></big>，如有权限对话框弹出请点击同意授权确定。<br></small>
-<small>3. 来到应用主页 [可在电脑右下角任务栏里点击爱说派开启]，可选择<big><code>翻译发音和翻译语种</code></big>。<br></small>
-<small>4. 选择<big><code>翻译模式</code></big>，点击<big><code>开始翻译</code></big>即可进行实时翻译。</small>
-</strong>
+1. 先插入爱说派翻译耳机设备（赠送的转接头可方便没有type-c的电脑使用）
+2. 打开爱说派应用（可在电脑右下角任务栏里点击爱说派开启）
+3. 即可使用应用中的实时翻译功能
 
 ## 功能图鉴
 

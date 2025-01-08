@@ -59,7 +59,7 @@ const downloads = [
     title: 'Windows',
     systems: props.lang === 'zh' ? '仅支持Windows 10, 11' : 'Windows 10, 11',
     icon: 'windows',
-    version: 'v174',
+    version: 'v178',
     links: {
       global: 'https://kikago.tech/bridge/download', // 国际链接
       china: 'https://kikago.tech/bridge/download' // 中国链接
@@ -69,7 +69,7 @@ const downloads = [
     title: 'macOS',
     systems: props.lang === 'zh' ? '仅支持M芯片' : 'Apple Silicon only',
     icon: 'apple',
-    version: 'v1.3.0',
+    version: 'v1.5.25',
     links: {
       global:
         'https://apps.apple.com/us/app/%E7%88%B1%E8%AF%B4%E6%B4%BE%E7%BF%BB%E8%AF%91/id6621238085?l=zh-Hans-CN&mt=12',
@@ -77,23 +77,23 @@ const downloads = [
         'https://apps.apple.com/us/app/%E7%88%B1%E8%AF%B4%E6%B4%BE%E7%BF%BB%E8%AF%91/id6621238085?l=zh-Hans-CN&mt=12'
     }
   },
-  // {
-  //   title: 'iOS',
-  //   systems: props.lang === 'zh' ? '支持机型=<15' : 'iPhone 15 or earlier',
-  //   icon: 'apple',
-  //   version: 'v1.3.8',
-  //   links: {
-  //     global:
-  //       'https://apps.apple.com/us/app/%E7%88%B1%E8%AF%B4%E6%B4%BE/id6475754060?l=zh-Hans-CN',
-  //     china:
-  //       'https://apps.apple.com/us/app/%E7%88%B1%E8%AF%B4%E6%B4%BE/id6475754060?l=zh-Hans-CN'
-  //   }
-  // },
+  {
+    title: 'iOS',
+    systems: props.lang === 'zh' ? '支持机型=<15' : 'iPhone 15 or earlier',
+    icon: 'apple',
+    version: 'v1.3.8',
+    links: {
+      global:
+        'https://apps.apple.com/us/app/%E7%88%B1%E8%AF%B4%E6%B4%BE/id6475754060?l=zh-Hans-CN',
+      china:
+        'https://apps.apple.com/us/app/%E7%88%B1%E8%AF%B4%E6%B4%BE/id6475754060?l=zh-Hans-CN'
+    }
+  },
   {
     title: 'Android',
     systems: props.lang === 'zh' ? '推荐Android 12+' : 'Android 12+',
     icon: 'android',
-    version: 'v194',
+    version: 'v198',
     links: {
       global: 'https://kikago.tech/bridge/download',
       china: 'https://kikago.tech/bridge/download'

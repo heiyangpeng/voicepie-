@@ -102,11 +102,20 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebarreadme(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'TransBuds 有线通话翻译耳机',
+      text: 'TransBuds C1 有线通话翻译耳机',
       items: [
         { text: 'android', link: 'android-c1' },
         { text: 'macos', link: 'macos-c1' },
         { text: 'windows', link: 'windows-c1' }
+      ]
+    },
+    {
+      text: 'TransBuds C2 有线通话翻译耳机',
+      items: [
+        { text: 'android', link: 'android-c2' },
+        { text: 'macos', link: 'macos-c2' },
+        { text: 'windows', link: 'windows-c2' },
+        { text: 'ios', link: 'ios-c2' }
       ]
     },
     {
@@ -128,7 +137,7 @@ function sidebarreadme(): DefaultTheme.SidebarItem[] {
       // activeMatch: '/guide/'
     },
     {
-      text: '蓝牙接收器',
+      text: 'AI精灵',
       items: [
         { text: 'android', link: 'android-d1' },
         { text: 'macos', link: 'macos-d1' },
@@ -209,7 +218,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: '产品概述', link: 'what-is-voicepie' },
-        { text: '下载安装', link: 'install' }
+        { text: '应用下载', link: 'install' }
       ]
     },
     // {

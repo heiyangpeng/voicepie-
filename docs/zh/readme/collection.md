@@ -1,25 +1,54 @@
 # 产品使用教程
 
-## TransBuds 有线通话翻译耳机
+## TransBuds C1 有线通话翻译耳机
 
 <DocCard :cards="[
   {
-    title: '有线翻译耳机在android上使用',
+    title: '有线通话翻译耳机在android上使用',
     description: '',
     avatar: '/img/安卓_手机.png',
     path: '/readme/android-c1'
   },
   {
-    title: '有线翻译耳机在windows上使用',
+    title: '有线通话翻译耳机在windows上使用',
     description: '',
     avatar: '/img/电脑.png',
     path: '/readme/windows-c1'
   },
   {
-    title: '有线翻译耳机在macOS上使用',
+    title: '有线通话翻译耳机在macOS上使用',
     description: '',
     avatar: '/img/苹果电脑.png',
     path: '/readme/macos-c1'
+  }
+]" />
+
+## TransBuds C2 有线通话翻译耳机
+
+<DocCard :cards="[
+  {
+    title: '有线通话翻译耳机在android上使用',
+    description: '',
+    avatar: '/img/安卓_手机.png',
+    path: '/readme/android-c2'
+  },
+  {
+    title: '有线通话翻译耳机在windows上使用',
+    description: '',
+    avatar: '/img/电脑.png',
+    path: '/readme/windows-c2'
+  },
+  {
+    title: '有线通话翻译耳机在macOS上使用',
+    description: '',
+    avatar: '/img/苹果电脑.png',
+    path: '/readme/macos-c2'
+  },
+    {
+    title: '有线通话翻译耳机在iOS上使用',
+    description: '',
+    avatar: '/img/iOS.png',
+    path: '/readme/ios-c2'
   }
 ]" />
 
@@ -27,19 +56,19 @@
 
 <DocCard :cards="[
   {
-    title: '蓝牙翻译耳机在android上使用',
+    title: 'Al通话翻译耳机在android上使用',
     description: '',
     avatar: '/img/安卓_手机.png',
     path: '/readme/android-w1'
   },
   {
-    title: '蓝牙翻译耳机在windows上使用',
+    title: 'Al通话翻译耳机在windows上使用',
     description: '',
     avatar: '/img/电脑.png',
     path: '/readme/windows-w1'
   },
   {
-    title: '蓝牙翻译耳机在macOS上使用',
+    title: 'Al通话翻译耳机在macOS上使用',
     description: '',
     avatar: '/img/苹果电脑.png',
     path: '/readme/macos-w1'

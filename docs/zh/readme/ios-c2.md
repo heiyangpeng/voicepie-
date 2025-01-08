@@ -1,4 +1,4 @@
-# 有线通话翻译耳机在Android上使用
+# 有线通话翻译耳机在iOS上使用
 
 ::: tip 💡本文为初次接触或对爱说派应用使用不熟悉的用户提供详细操作指南，让您轻松上手。
 
@@ -6,14 +6,7 @@
 
 :::
 
-<!--
-## 前提使用条件
-
-<small><font style="color: red">存在部分手机芯片或系统不支持，请联系客服咨询后进行购置</font></small>
-
-- <strong>macOS : <small>仅支持M芯片</small></strong>
-- <strong>android : <small>Android 12+ </small></strong>
-- <strong>windows : <small>支持windows 10/11系统</small></strong> -->
+![ios](https://bu.dusays.com/2024/12/25/676be5264464b.png)
 
 ## 下载安装
 
@@ -37,31 +30,7 @@
   </svg>
 </p><strong><small>点击<a href="https://kikago.tech/bridge/download">前往下载应用</a>安装包进行安装</small></strong>
 
-<!-- <DocCard :cards="[
-  {
-    title: '点击前往下载应用',
-    description: '',
-    avatar: '/img/点击.png',
-    path: '/guide/install'
-  }
-]" /> -->
-
-<!-- Tabs -->
-<!-- <CustomUI type="tabs" :tabLabels="['方法一', '方法二', '方法三']">
-  <template #tab-1>
-    <strong><small>点击<big><code>前往下载应用</code></big>安装包进行安装<br>
-    <CustomUI type="button" url="/guide/install" :size="9">点击前往下载</CustomUI>
-</small></strong>
-  </template>
-  <template #tab-2>
-    <strong><small>手机自带应用商店可搜索<code><big>爱说派</big></code>进行下载安装<br>包括谷歌商店</small></strong>
-  </template>
-  <template #tab-3>
-    <strong><small>可扫包装盒背后<big><code>二维码</code></big>进行扫码下载安装</small></strong>
-  </template>
-</CustomUI> -->
-
-## 使用视频
+<!-- ## 使用视频
 
 <div class="video-container">
   <video
@@ -75,23 +44,24 @@
     <source src="/videos/有线-a-zh.mp4" type="video/mp4">
     您的浏览器不支持 HTML5 视频播放。
   </video>
-  
-</div>
+
+</div> -->
 
 ## 使用教程
 
-::: warning 打开应用时请给予并同意<a href="/help/competence">必要权限</a>
+::: warning 打开应用时请给予并同意<a href="/help/competence#ios权限">必要权限</a>
 
 :::
 
 <strong>
-<small>1. 打开爱说派应用，如有权限对话框弹出请点击同意确定。<br></small>
-<small>2. 插入爱说派设备，授予应用显示在其它应用上层权限。<br></small>
-<small>3. 设置完成后进入应用主页，即可使用翻译功能。<br></small>
-<small>4. 若未出现悬浮球，请重新插拔即可生效。<br></small>
+<small>1. 首先开启蓝牙，再打开爱说派应用，如有权限对话框弹出请点击同意确定。<br></small>
+<small>2. 插入爱说派设备，稍等片刻，成功连接设备。<br></small>
+<small>3. 即可开始使用翻译功能，开始后画中画可自由滑动查看翻译文本。<br></small>
 </strong>
 
-![使用翻译](https://bu.dusays.com/2024/11/14/6735bd925fb9f.png)
+![ios](https://bu.dusays.com/2024/12/25/676be3ee26529.png)
+
+![ios](https://bu.dusays.com/2024/12/25/676be3eeb9022.png)
 
 ## 功能详解
 
@@ -121,115 +91,3 @@
     path: '/guide/other'
   }
 ]" />
-
-<!--
-## 翻译模式
-
-::: tip 通话传译模式
-在通话传译模式下，可以在<big><code>实体通话、微信/叮叮/企业微信语音</code></big>等场景下进行实时翻译
-
-:::
-
-::: tip 在线直播模式
-在进行<big><code>抖音、快手、头条或国外tiktok</code></big>等直播时，可根据不同国家的观众选择不同的语种直播翻译；
-
-:::
-
-::: tip 影音翻译模式
-
-观看<big><code>电影、视频和电台</code></big>时，实时翻译音频内容，你还能听到翻译后的声音，让理解更轻松。
-:::
-
-::: tip 现场听译模式
-在<font size=3><code>线下多人会议、旅行或讲座</code></font>等场景下，可以收录对方声音进行实时翻译
-:::
-
-
-::: tip 面对面模式
-让两人交流时实时翻译，说话即听到翻译，<big><code>无缝对话</code></big>，即插即用，无需等待
-
-:::
-
-
-
-## 播报设置
-
-::: tip 自定义设置开关播报声音
-播放原声（对方）：关闭后，耳机里听不到对方原声
-
-播放翻译（对方）：关闭后，耳机里听不到对方语言的翻译
-
-输出原声（我方）：关闭后，对方听不到您的原声
-
-输出翻译（我方）：关闭后，对方将听不到您的语言翻译
-:::
-
-
-
-## 语种选择
-
-::: tip 内置19种翻译语言，覆盖热门语种
-
-中文、英语、日语、韩语、俄语、法语、德语、泰语、粤语、印地语、缅甸语、越南语、印尼语、阿拉伯语、希伯来语、意大利语、葡萄牙语、西班牙语、乌克兰语；后续升级会继续增加语种！
-
-:::
-
-
-## 音色选择
-
-::: tip 提供翻译收听音色选择
-
-✅实现非AI声音播报，克隆本人声线
-
-✅支持男女音色切换
-
-✅增加情感，直播专属
-
-:::
-
-## 其它功能
-
-
-### 检查更新
-
-::: tip
-
-为方便用户及时体验到最新版本，app后台可自行更新，无需在应用重新安装下载更新。
-
-:::
-
-### 悬浮球
-
-::: tip
-
-支持悬浮球快速启动翻译功能，并可在其中快速切换预设语种。
-
-实时显示翻译的文字记录，便于查看、复制或分享已翻译的文本信息。
-
-:::
-
-### 行业场景
-
-::: tip
-
-用户可针对不同专业领域（如金融、医疗、科技、政府等）定制翻译模型，确保精准传达行业术语。
-
-:::
-
-
-### 记录保存
-
-::: tip
-
-各模式下的使用记录得以保存，方便用户随时查阅回顾过往翻译内容。
-
-:::
-
-### 用户反馈
-
-::: tip
-
-如在使用中出现疑问或建议，即可在应用里进行反馈，您的问题我们收到会尽快查阅并解决。
-
-:::
- -->

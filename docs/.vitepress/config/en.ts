@@ -34,7 +34,7 @@ export const en = defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
-      text: 'Product Manual',
+      text: 'Product Tutorials',
 
       link: '/en/readme/collection',
       activeMatch: '/en/readme/'

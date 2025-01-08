@@ -4,13 +4,13 @@
 
 <DocCard :cards="[
   {
-    title: '有线翻译耳机使用说明',
+    title: '有线通话翻译耳机使用说明',
     description: '',
     avatar: '/img/安卓_手机.png',
     path: '/readme/macos-c1'
   },
   {
-    title: '蓝牙翻译耳机使用说明',
+    title: 'Al通话翻译耳机使用说明',
     description: '',
     avatar: '/img/安卓_手机.png',
     path: '/readme/macos-w1'
