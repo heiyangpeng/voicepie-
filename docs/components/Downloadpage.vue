@@ -93,7 +93,7 @@ const downloads = [
     title: 'Android',
     systems: props.lang === 'zh' ? '推荐Android 12+' : 'Android 12+',
     icon: 'android',
-    version: 'v198',
+    version: 'v208',
     links: {
       global: 'https://kikago.tech/bridge/download',
       china: 'https://kikago.tech/bridge/download'

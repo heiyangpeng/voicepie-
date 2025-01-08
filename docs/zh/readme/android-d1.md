@@ -72,7 +72,7 @@ dongle灯光
 <small>4. 若未出现悬浮球，请重新插拔即可生效。</small>
 </strong>
 
-![使用翻译](https://bu.dusays.com/2024/11/14/6735bd925fb9f.png)
+![使用翻译](https://bu.dusays.com/2025/01/08/677e424285bd9.png)
 
 ## 功能详解
 
