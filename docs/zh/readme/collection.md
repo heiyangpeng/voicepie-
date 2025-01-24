@@ -125,7 +125,7 @@
 
 <DocCard :cards="[
     {
-    title: 'iPhone定制直播设备',
+    title: '苹果手机直播定制设备',
     description: '',
     avatar: '/img/定制设备.png',
     path: '/readme/iphone-custom'

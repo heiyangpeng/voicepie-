@@ -56,23 +56,6 @@ export const zh = defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
   return [
-    {
-      text: '使用教程',
-
-      link: '/readme/collection',
-      activeMatch: '/readme/'
-    },
-    // {
-    //   text: '指南',
-    //   items: [
-    //     { text: '有线翻译耳机', link: '/guide//README-c1' },
-    //     { text: '蓝牙翻译耳机', link: '/guide/README-w1' },
-    //     { text: '直播翻译设备', link: '/guide/README-m1' }
-    //   ]
-    //   // link: '/guide/what-is-voicepie',
-    //   // activeMatch: '/guide/'
-    // },
-
     // {
     //   text: '参考',
     //   link: '/reference/site-config',
@@ -82,7 +65,26 @@ function nav(): DefaultTheme.NavItem[] {
       text: '帮助与支持',
       link: '/help/preface',
       activeMatch: '/help/'
+    },
+    {
+      text: '使用教程',
+
+      link: '/readme/collection',
+      activeMatch: '/readme/'
+    },
+    {
+      text: '更新日志',
+      items: [
+        { text: 'Android', link: '/releases/android' },
+        { text: 'Windows', link: '/releases/windows' },
+        { text: 'macOS', link: '/releases/macos' },
+
+        { text: 'IOS', link: '/releases/ios' }
+      ]
+      // link: '/guide/what-is-voicepie',
+      // activeMatch: '/guide/'
     }
+
     // {
     //   text: pkg.version,
     //   items: [
@@ -104,34 +106,34 @@ function sidebarreadme(): DefaultTheme.SidebarItem[] {
     {
       text: 'TransBuds C1 有线通话翻译耳机',
       items: [
-        { text: 'android', link: 'android-c1' },
-        { text: 'macos', link: 'macos-c1' },
-        { text: 'windows', link: 'windows-c1' }
+        { text: 'Android', link: 'android-c1' },
+        { text: 'macOS', link: 'macos-c1' },
+        { text: 'Windows', link: 'windows-c1' }
       ]
     },
     {
       text: 'TransBuds C2 有线通话翻译耳机',
       items: [
-        { text: 'android', link: 'android-c2' },
-        { text: 'macos', link: 'macos-c2' },
-        { text: 'windows', link: 'windows-c2' },
-        { text: 'ios', link: 'ios-c2' }
+        { text: 'Android', link: 'android-c2' },
+        { text: 'macOS', link: 'macos-c2' },
+        { text: 'Windows', link: 'windows-c2' },
+        { text: 'IOS', link: 'ios-c2' }
       ]
     },
     {
       text: 'TransBuds W1 Al通话翻译耳机',
       items: [
-        { text: 'android', link: 'android-w1' },
-        { text: 'macos', link: 'macos-w1' },
-        { text: 'windows', link: 'windows-w1' }
+        { text: 'Android', link: 'android-w1' },
+        { text: 'macOS', link: 'macos-w1' },
+        { text: 'Windows', link: 'windows-w1' }
       ]
     },
     {
       text: 'TransMic 无线翻译领夹麦',
       items: [
-        { text: 'android', link: 'android-m1' },
-        { text: 'macos', link: 'macos-m1' },
-        { text: 'windows', link: 'windows-m1' }
+        { text: 'Android', link: 'android-m1' },
+        { text: 'macOS', link: 'macos-m1' },
+        { text: 'Windows', link: 'windows-m1' }
       ]
       // link: '/guide/what-is-voicepie',
       // activeMatch: '/guide/'
@@ -139,9 +141,9 @@ function sidebarreadme(): DefaultTheme.SidebarItem[] {
     {
       text: 'AI精灵',
       items: [
-        { text: 'android', link: 'android-d1' },
-        { text: 'macos', link: 'macos-d1' },
-        { text: 'windows', link: 'windows-d1' }
+        { text: 'Android', link: 'android-d1' },
+        { text: 'macOS', link: 'macos-d1' },
+        { text: 'Windows', link: 'windows-d1' }
       ]
       // link: '/guide/what-is-voicepie',
       // activeMatch: '/guide/'

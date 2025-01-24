@@ -1,4 +1,4 @@
-# 有线通话翻译耳机在windows上使用
+# 有线通话翻译耳机在windows上使用(iOS版)
 
 ::: tip 💡本文为初次接触或对爱说派应用使用不熟悉的用户提供详细操作指南，让您轻松上手。
 ❗️<font style="color: red">仅支持windows10/11 64位系统，使用前需确保网络环境良好</font>
@@ -21,11 +21,11 @@
 
 ## 安装说明
 
-::: warning 需先插入voicepie耳机设备才可打开应用驱动包进行安装
+::: warning 需先插入voicepie耳机设备再打开应用驱动包进行安装
 
 :::
 
-### 应用保留
+<!-- ### 应用保留
 
 1. 应用下载完成时，按照下图指示保留应用安装包
 
@@ -37,7 +37,7 @@
 
 3. 点击仍然保留
 
-![](https://bu.dusays.com/2024/11/15/6736fab963dbd.webp)
+![](https://bu.dusays.com/2024/11/15/6736fab963dbd.webp) -->
 
 ### 安装步骤
 
@@ -71,8 +71,8 @@
 
 ## 使用说明
 
-1. 先插入爱说派翻译耳机设备（赠送的转接头可方便没有type-c的电脑使用）
-2. 打开爱说派应用（可在电脑右下角任务栏里点击爱说派开启）
+1. 先插入爱说派翻译耳机设备(赠送的转接头可方便没有type-c的电脑使用)
+2. 打开爱说派应用(可在电脑右下角任务栏里点击爱说派开启)
 3. 即可使用应用中的实时翻译功能
 
 ## 功能图鉴
@@ -82,12 +82,12 @@
 ## 核心功能
 
 <DocCard :cards="[
-  {
-    title: '翻译模式',
-    description: '',
-    avatar: '/img/情景模式.png',
-    path: '/guide/modes'
-  },
+  // {
+  //   title: '翻译模式',
+  //   description: '',
+  //   avatar: '/img/情景模式.png',
+  //   path: '/guide/modes'
+  // },
   {
     title: '翻译设置',
     description: '',
@@ -105,5 +105,11 @@
     description: '',
     avatar: '/img/其它.png',
     path: '/guide/other'
+  },
+  {
+    title: '常见问题',
+    description: '',
+    avatar: '/img/问题答疑.png',
+    path: '/help/preface'
   }
 ]" />

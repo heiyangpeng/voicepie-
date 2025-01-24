@@ -36,11 +36,11 @@ dongle灯光
 
 :::
 
-1. 接收器插入<big><code>手机或pc</code></big>（可使用usb转接器连接pc）
+1. 接收器插入手机或pc(可使用usb转接器连接pc)
 
 ![](https://bu.dusays.com/2024/11/18/673b06df9370b.png)
 
-2. 插入接收器有LED灯闪烁。长按接收器按键2秒，即可配对新蓝牙设备（蓝牙耳机、蓝牙音响等）
+2. 插入接收器有LED灯闪烁。长按接收器按键2秒，即可配对新蓝牙设备(蓝牙耳机、蓝牙音响等)
 
 ![](https://bu.dusays.com/2024/11/18/673b06dfa8d35.png)
 
@@ -48,19 +48,17 @@ dongle灯光
 
 ![](https://bu.dusays.com/2024/11/18/673b075392eb6.png)
 
-4. 在pc或手机端打开<big><code>爱说派应用</code></big> ，识别成功接收器，即可设置爱说派App使用实时翻译功能
+4. 在pc或手机端打开爱说派应用 ，识别成功接收器，即可设置爱说派App使用实时翻译功能
 
 ![](https://bu.dusays.com/2024/11/18/673b06de69a63.png)
 
 ## 安装说明
 
-::: warning 需先插入voicepie耳机设备才可打开应用驱动包进行安装
-
-前提完成：蓝牙设备已配对好AI精灵
+::: warning 需先插入voicepie耳机设备再打开应用驱动包进行安装。(前提完成蓝牙设备已配对好AI精灵)
 
 :::
 
-### 应用保留
+<!-- ### 应用保留
 
 1. 应用下载完成时，按照下图指示保留应用安装包
 
@@ -72,7 +70,7 @@ dongle灯光
 
 3. 点击仍然保留
 
-![](https://bu.dusays.com/2024/11/15/6736fab963dbd.webp)
+![](https://bu.dusays.com/2024/11/15/6736fab963dbd.webp) -->
 
 ### 安装步骤
 
@@ -107,10 +105,10 @@ dongle灯光
 ## 使用说明
 
 <strong>
-<small>1. 电脑先插入AI精灵，同时拿出已配对蓝牙设备，耳机自动连接上AI精灵，无需进行电脑蓝牙连接耳机。<br></small>
-<small>2. 稍等片刻，打开爱说派，如有权限对话框弹出请点击同意授权确定。<br></small>
-<small>3. 来到应用主页 [可在电脑右下角任务栏里点击爱说派开启]，可选择翻译发音和翻译语种。<br></small>
-<small>4. 选择任意翻译场景，点击开始翻译即可进行实时翻译。</small>
+<small>1. 电脑先插入AI精灵，同时拿出已配对的蓝牙设备，耳机自动连接上AI精灵，无需进行电脑蓝牙连接耳机。<br></small>
+<small>2. 打开爱说派应用，如有权限对话框弹出请点击同意授权确定。<br></small>
+<small>3. 来到应用主页(可在电脑右下角任务栏里点击爱说派开启)，可设置翻译发音和翻译语种等功能。<br></small>
+<small>4. 选择翻译场景，点击开始翻译即可进行实时翻译。</small>
 </strong>
 
 ## 功能图鉴
@@ -120,12 +118,12 @@ dongle灯光
 ## 核心功能
 
 <DocCard :cards="[
-  {
-    title: '翻译模式',
-    description: '',
-    avatar: '/img/情景模式.png',
-    path: '/guide/modes'
-  },
+  // {
+  //   title: '翻译模式',
+  //   description: '',
+  //   avatar: '/img/情景模式.png',
+  //   path: '/guide/modes'
+  // },
   {
     title: '翻译设置',
     description: '',
@@ -143,5 +141,11 @@ dongle灯光
     description: '',
     avatar: '/img/其它.png',
     path: '/guide/other'
+  },
+  {
+    title: '常见问题',
+    description: '',
+    avatar: '/img/问题答疑.png',
+    path: '/help/preface'
   }
 ]" />

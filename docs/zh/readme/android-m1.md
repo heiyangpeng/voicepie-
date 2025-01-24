@@ -51,15 +51,15 @@
 
 ::: warning 打开应用时请给予并同意<a href="/help/competence">必要权限</a>
 
-<a href="/guide/other#悬浮球">悬浮球</a>显示需要插入设备进行授予应用显示在其它应用上层权限之后再重新插拔即可显示在手机上
+<!-- <a href="/guide/other#悬浮球">悬浮球</a>显示需要插入设备进行授予应用显示在其它应用上层权限之后再重新插拔即可显示在手机上 -->
+
 :::
 
 <strong>
-<small>1. 打开爱说派应用，如有权限对话框弹出请点击同意确定。<br></small>
-<small>2. 手机插入AI翻译棒[简称接收端]，同时领夹麦设备开机，蓝色灯光闪烁直至常亮则成功连接AI翻译棒。<br></small>
-<small>3. 设置授予应用显示在其它应用上层权限，完成后进入应用主页，即可开始使用翻译功能。<br></small>
-<small>4. 若未出现悬浮球，请重新插拔即可生效。<br></small>
-</strong>
+<small>1. 插入AI翻译棒，开启领夹麦设备，蓝色灯光闪烁变为常亮即成功连接。无需进行手机自带蓝牙连接耳机。<br></small>
+<small>2. 打开爱说派应用，如有权限对话框弹出请点击同意确定。<br></small>
+<small>3. 成功进入应用后，可设置语种/音色、专业词库、播报语速等功能。<br></small>
+<small>4. 在App主页或悬浮球上选择所需要的应用场景，即可开始使用翻译功能。<br></small></strong>
 
 ![使用翻译](https://bu.dusays.com/2025/01/08/677e424285bd9.png)
 
@@ -70,7 +70,7 @@
     title: '翻译模式',
     description: '',
     avatar: '/img/情景模式.png',
-    path: '/guide/modes'
+    path: '/guide/modes-m1'
   },
   {
     title: '翻译设置',
@@ -89,5 +89,11 @@
     description: '',
     avatar: '/img/其它.png',
     path: '/guide/other'
+  },
+  {
+    title: '常见问题',
+    description: '',
+    avatar: '/img/问题答疑.png',
+    path: '/help/preface'
   }
 ]" />

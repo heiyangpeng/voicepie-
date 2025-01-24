@@ -1,4 +1,4 @@
-# 有线通话翻译耳机在Android上使用
+# 有线通话翻译耳机在Android上使用(iOS版)
 
 ::: tip 💡本文为初次接触或对爱说派应用使用不熟悉的用户提供详细操作指南，让您轻松上手。
 
@@ -39,47 +39,6 @@
   </svg>
 </p><strong><small>点击<a href="https://kikago.tech/bridge/download">前往下载应用</a>安装包进行安装</small></strong>
 
-<!-- <DocCard :cards="[
-  {
-    title: '点击前往下载应用',
-    description: '',
-    avatar: '/img/点击.png',
-    path: '/guide/install'
-  }
-]" /> -->
-
-<!-- Tabs -->
-<!-- <CustomUI type="tabs" :tabLabels="['方法一', '方法二', '方法三']">
-  <template #tab-1>
-    <strong><small>点击<big><code>前往下载应用</code></big>安装包进行安装<br>
-    <CustomUI type="button" url="/guide/install" :size="9">点击前往下载</CustomUI>
-</small></strong>
-  </template>
-  <template #tab-2>
-    <strong><small>手机自带应用商店可搜索<code><big>爱说派</big></code>进行下载安装<br>包括谷歌商店</small></strong>
-  </template>
-  <template #tab-3>
-    <strong><small>可扫包装盒背后<big><code>二维码</code></big>进行扫码下载安装</small></strong>
-  </template>
-</CustomUI> -->
-<!--
-## 使用视频
-
-<div class="video-container">
-  <video
-   controls
-    preload="auto"
-    controlsList="nodownload noplaybackrate"
-    disablePictureInPicture
-    oncontextmenu="return false;"
-    poster="https://bu.dusays.com/2024/11/28/67481cda1b206.png"
-  >
-    <source src="/videos/有线-a-zh.mp4" type="video/mp4">
-    您的浏览器不支持 HTML5 视频播放。
-  </video>
-
-</div> -->
-
 ## 使用教程
 
 ::: warning 打开应用时请给予并同意<a href="/help/competence">必要权限</a>
@@ -89,9 +48,8 @@
 <strong>
 <small>1. 打开爱说派应用，如有权限对话框弹出请点击同意确定。<br></small>
 <small>2. 插入爱说派设备，授予应用显示在其它应用上层权限。<br></small>
-<small>3. 设置完成后进入应用主页，即可使用翻译功能。<br></small>
-<small>4. 若未出现悬浮球，请重新插拔即可生效。<br></small>
-</strong>
+<small>3. 成功进入应用后，可设置语种/音色、专业词库、播报语速等功能。<br></small>
+<small>4. 在App主页或悬浮球上选择所需要的应用场景，即可开始使用翻译功能。<br></small></strong>
 
 ![使用翻译](https://bu.dusays.com/2025/01/08/677e424285bd9.png)
 
@@ -102,7 +60,7 @@
     title: '翻译模式',
     description: '',
     avatar: '/img/情景模式.png',
-    path: '/guide/modes'
+    path: '/guide/modes-c1'
   },
   {
     title: '翻译设置',
@@ -121,5 +79,11 @@
     description: '',
     avatar: '/img/其它.png',
     path: '/guide/other'
+  },
+  {
+    title: '常见问题',
+    description: '',
+    avatar: '/img/问题答疑.png',
+    path: '/help/preface'
   }
 ]" />

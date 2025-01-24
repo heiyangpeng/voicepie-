@@ -1,110 +1,110 @@
-# AI精灵在Android上使用
+# Using AI Dongle on Android
 
-::: tip 💡本文为初次接触或对手机或电脑应用安装不熟悉的用户提供详细步骤指南，让您轻松上手。
+::: tip 💡This guide provides detailed steps for first-time users or those unfamiliar with app installation on mobile or PC, helping you get started effortlessly.
 
 <!-- ❗️<font style="color: red">存在部分手机芯片或系统不支持，请联系客服咨询后进行购置</font> -->
 
 :::
 
-## 下载安装
+## Download and Install
 
-<!-- <CustomUI type="button" url="/guide/install">点击前往下载</CustomUI> -->
+<!-- 按钮 -->
 <p style="display: inline-block; vertical-align: middle; margin-right: 5px;">
   <svg t="1731483445691" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="22931" width="20" height="20">
     <path d="M512.045025 962.874851c-248.349251 0-449.65507-201.846124-449.65507-450.919876 0-248.984724 201.305819-450.830849 449.65507-450.830849 248.261247 0 449.565019 201.846124 449.565019 450.830849C961.610044 761.028727 760.306272 962.874851 512.045025 962.874851L512.045025 962.874851zM572.751642 289.933345l-69.211315 0c-9.766434 27.322275-27.685549 51.116191-53.835116 71.65497-26.054399 20.446681-50.302663 34.288944-72.557526 41.61684l0 77.535911c42.346457-14.023388 79.07701-35.555797 110.197798-64.778352l0 322.720076 85.406159 0L572.751642 289.933345 572.751642 289.933345z" fill="#999999" p-id="22932"></path>
   </svg>
-</p><strong><small>可扫包装盒背后二维码进行下载安装</small></strong><br>
+</p><strong><small>Scan the QR code on the back of the packaging to download and install</small></strong><br>
 <p style="display: inline-block; vertical-align: middle; margin-right: 5px;">
   <svg t="1731484117001" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="24111" width="20" height="20">
     <path d="M511.950881 962.833919c-248.254084 0-449.561949-201.849194-449.561949-450.833919S263.696798 61.166081 511.950881 61.166081c248.353344 0 449.659163 201.848171 449.659163 450.832895S760.305249 962.833919 511.950881 962.833919L511.950881 962.833919zM662.141532 665.532769 492.320798 665.532769c4.433986-7.780197 10.224876-15.652492 17.46579-23.793916 7.143701-8.142447 24.246217-24.608467 51.2922-49.399083 27.053146-24.789593 45.695738-43.788296 56.095599-56.997132 15.566534-19.905352 26.962072-38.904055 34.202986-57.08923 7.147794-18.186198 10.765181-37.366026 10.765181-57.45148 0-35.374672-12.573363-64.87045-37.636179-88.665389-25.15389-23.793916-59.715033-35.646871-103.595426-35.646871-40.077787 0-73.464175 10.222829-100.246145 30.761608-26.689872 20.537755-42.61047 54.374398-47.676859 101.602026l85.408205 8.504698c1.629103-25.060769 7.688099-42.974767 18.0941-53.740972 10.492982-10.766205 24.608467-16.194844 42.340317-16.194844 17.915022 0 31.940456 5.15644 42.070164 15.380292 10.226922 10.313903 15.293311 24.970718 15.293311 44.061518 0 17.281595-5.884011 34.742269-17.640776 52.475142-8.69094 12.846586-32.212656 37.184901-70.665433 73.194022-47.772027 44.512796-79.794347 80.250742-95.994308 107.120716-16.192797 26.962072-25.877367 55.461149-29.127388 85.498256l299.375391 0L662.141532 665.532769 662.141532 665.532769z" fill="#999999" p-id="24112"></path>
   </svg>
-</p><strong><small>手机自带应用商店可搜索爱说派进行下载安装</small></strong><br>
+</p><strong><small>Search for "voicepie" in your device’s app store to download and install</small></strong><br>
 
 <p style="display: inline-block; vertical-align: middle; margin-right: 5px;">
   <svg t="1731484246222" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="25205" width="20" height="20">
     <path d="M512 962.874851c-248.28376 0-449.610044-201.86659-449.610044-450.875874 0-249.00826 201.326285-450.875874 449.610044-450.875874 248.374834 0 449.610044 201.86659 449.610044 450.875874C961.610044 761.009284 760.374834 962.874851 512 962.874851L512 962.874851zM638.495996 397.630183c0-27.688619-10.498098-52.481282-31.308053-74.468039-25.337061-26.782993-58.998719-40.173978-100.979856-40.173978-24.52251 0-46.689369 4.616134-66.412572 13.84431-19.72525 9.31925-35.201733 22.077831-46.236044 38.273698-11.042497 16.286941-19.276019 37.913495-24.792663 65.057715l78.896908 13.389962c2.26253-19.452028 8.507768-34.292014 18.823718-44.426839 10.313903-10.132778 22.711258-15.20019 37.276998-15.20019 14.750959 0 26.510794 4.432962 35.471886 13.390985 8.861832 8.958022 13.298887 20.901029 13.298887 35.921117 0 17.644869-6.066159 31.759331-18.186198 42.437531-12.218276 10.586103-29.860075 15.652492-52.93256 15.020088l-9.413394 69.310575c15.204283-4.344958 28.322046-6.42534 39.273469-6.42534 16.648169 0 30.765701 6.334265 42.34441 18.912745 11.493775 12.57541 17.281595 29.677926 17.281595 51.302433 0 22.801309-6.056949 40.898479-18.096147 54.289464-12.029988 13.481036-26.874067 20.177552-44.515866 20.177552-16.467043 0-30.493501-5.610788-41.981137-16.740266-11.584849-11.128455-18.644639-27.235294-21.354354-48.318472l-82.613556 10.04375c4.254907 37.550221 19.634176 67.952648 46.14497 91.206258 26.603915 23.162536 59.992349 34.83539 100.346429 34.83539 42.61661 0 78.17957-13.843286 106.772792-41.440831 28.585035-27.687596 42.886763-61.07603 42.886763-100.255355 0-27.054169-7.691169-50.126654-22.981411-69.218478-15.295358-19.091824-35.744086-31.397081-61.349253-36.826743C617.052614 468.115514 638.495996 436.808484 638.495996 397.630183L638.495996 397.630183z" fill="#999999" p-id="25206"></path>
   </svg>
-</p><strong><small>点击<a href="https://kikago.tech/bridge/download">前往下载应用</a>安装包进行安装</small></strong>
+</p><strong><small>Click to <a href="https://kikago.tech/bridge/download">download</a> the app installation package</small></strong>
 
-## 配对蓝牙设备
+## Pairing Bluetooth Devices
 
-::: warning dongle按键
+::: warning Dongle Button Instructions:
 
-1. 长按2秒按键，连接新蓝牙设备<font style="color: red">[蓝牙设备需进入蓝牙配对状态]</font>
+1.Press and hold the button for 2 seconds to connect to a new Bluetooth device.(Ensure the Bluetooth device is in pairing mode)
 
-2. 按键短按一下，回连上一个连接设备<font style="color: red">[插入dongle会自动连接已配对过的设备，若连不上再短按一下]</font>
+2.Press the button briefly to reconnect to a previously paired device.(Inserting the dongle will automatically reconnect to paired devices; if it fails, press the button briefly again)
 
-dongle灯光
+Dongle Indicator Lights:
 
-1. 灯光闪烁，未连上蓝牙设备
+1.Blinking light: No Bluetooth device is connected.
 
-2. 灯光常亮，连接上蓝牙设备
+2.Solid light: Successfully connected to a Bluetooth device.
 
 :::
 
-1. 接收器插入<big><code>手机或pc</code></big>（可使用usb转接器连接pc）
+1.Insert the receiver into a mobile phone or PC (use a USB adapter if connecting to a PC).
 
 ![](https://bu.dusays.com/2024/11/18/673b06df9370b.png)
 
-2. 插入接收器有LED灯闪烁。长按接收器按键2秒，即可配对新蓝牙设备（蓝牙耳机、蓝牙音响等）
+2.When the receiver is inserted, the LED indicator will blink. Press and hold the receiver button for 2 seconds to pair with a new Bluetooth device (e.g., Bluetooth headphones, speakers).
 
-![](https://bu.dusays.com/2024/11/18/673b06dfa8d35.png)
+![](https://bu.dusays.com/2024/11/18/673b06df9370b.png)
 
-3. LED闪烁灯光常亮表示连接成功，同时蓝牙设备也会提示连接成功
+3.The LED indicator will turn solid to indicate a successful connection. The Bluetooth device will also confirm the connection.
 
 ![](https://bu.dusays.com/2024/11/18/673b075392eb6.png)
 
-4. 在pc或手机端打开<big><code>爱说派应用</code></big> ，识别成功接收器，即可设置爱说派App使用实时翻译功能
+4.Open the voicepie App on your PC or mobile device. Once the receiver is recognized, configure the app to use real-time translation features.
 
 ![](https://bu.dusays.com/2024/11/18/673b06de69a63.png)
 
-## 使用教程
+## User Guide
 
-::: warning 打开应用时请给予并同意<a href="/help/competence">必要权限</a>
+::: warning Grant <a href="/help/competence">Necessary Permissions</a>
 
-前提完成：蓝牙设备已配对好AI精灵
+Ensure the Bluetooth device is successfully paired with the AI Dongle before proceeding.
 :::
 
 <strong>
-<small>1. 插入AI精灵，同时佩戴蓝牙耳机，耳机会自动连接到AI精灵(前提已进行配对连接过)。<br></small>
-<small>2. 打开爱说派应用，如有权限对话框弹出请点击同意确定。<br></small>
-<small>3. 成功进入应用后，可设置语种/音色、专业词库、播报语速等功能。<br></small>
-<small>4. 在App主页或悬浮球上选择所需要的应用场景，即可开始使用翻译功能。<br></small>
+<small>1. Insert the AI Dongle and wear the Bluetooth headphones. The headphones will automatically connect to the AI Dongle (if previously paired).<br></small>
+<small>2. Open the voicepie app. If a permission dialog appears, click Agree or Confirm.<br></small>
+<small>3. After successful app entry, configure language/voice, professional dictionaries, speech speed, and more.<br></small>
+<small>4. Select the desired usage scenario on the app homepage or floating ball to start using the translation feature.<br></small>
 </strong>
 
-![使用翻译](https://bu.dusays.com/2025/01/08/677e424285bd9.png)
+![](https://bu.dusays.com/2025/01/23/6791fdc83990a.png)
 
-## 功能详解
+## Detailed Features
 
 <DocCard :cards="[
   {
-    title: '翻译模式',
+    title: 'Translation Mode',
     description: '',
     avatar: '/img/情景模式.png',
-    path: '/guide/modes'
+    path: '/en/guide/modes'
   },
   {
-    title: '翻译设置',
+    title: 'Broadcast Settings',
     description: '',
     avatar: '/img/设置.png',
-    path: '/guide/settings'
+    path: '/en/guide/settings'
   },
   {
-    title: '语种/音色选择',
+    title: 'Language/Voice Selection',
     description: '',
     avatar: '/img/语种切换.png',
-    path: '/guide/language'
+    path: '/en/guide/language'
   },
     {
-    title: '其它功能',
+    title: 'Other Features',
     description: '',
     avatar: '/img/其它.png',
-    path: '/guide/other'
+    path: '/en/guide/other'
   },
   {
-    title: '常见问题',
+    title: 'Help&Support',
     description: '',
     avatar: '/img/问题答疑.png',
-    path: '/help/preface'
+    path: '/en/help/preface'
   }
 ]" />

@@ -73,32 +73,51 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebarreadme(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'TransBuds',
+      text: 'TransBuds C1',
       items: [
-        { text: 'android', link: 'android-c1' },
-        { text: 'macos', link: 'macos-c1' },
-        { text: 'windows', link: 'windows-c1' }
+        { text: 'Android', link: 'android-c1' },
+        { text: 'macOS', link: 'macos-c1' },
+        { text: 'Windows', link: 'windows-c1' }
       ]
     },
     {
+      text: 'TransBuds C2',
+      items: [
+        { text: 'Android', link: 'android-c2' },
+        { text: 'macOS', link: 'macos-c2' },
+        { text: 'Windows', link: 'windows-c2' },
+        { text: 'iOS', link: 'ios-c2' }
+      ]
+    },
+
+    {
       text: 'TransBuds W1',
       items: [
-        { text: 'android', link: 'android-w1' },
-        { text: 'macos', link: 'macos-w1' },
-        { text: 'windows', link: 'windows-w1' }
+        { text: 'Android', link: 'android-w1' },
+        { text: 'macOS', link: 'macos-w1' },
+        { text: 'Windows', link: 'windows-w1' }
       ]
     },
     {
       text: 'TransMic',
       items: [
-        { text: 'android', link: 'android-m1' },
-        { text: 'macos', link: 'macos-m1' },
-        { text: 'windows', link: 'windows-m1' }
+        { text: 'Android', link: 'android-m1' },
+        { text: 'macOS', link: 'macos-m1' },
+        { text: 'Windows', link: 'windows-m1' }
       ]
-      // link: '/guide/what-is-voicepie',
-      // activeMatch: '/guide/'
     },
-    { text: 'Bluetooth receiver', link: 'dongle' }
+    {
+      text: 'AI Dongle',
+      items: [
+        { text: 'Android', link: 'android-d1' },
+        { text: 'macOS', link: 'macos-d1' },
+        { text: 'Windows', link: 'windows-d1' }
+      ]
+    },
+    {
+      text: 'Custom Bluetooth Transmitter for iPhone Livestreaming',
+      link: 'iphone-custom'
+    }
   ]
 }
 

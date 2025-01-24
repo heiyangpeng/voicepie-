@@ -9,6 +9,12 @@
     avatar: '/img/安卓_手机.png',
     path: '/readme/android-c1'
   },
+    {
+    title: '有线翻译耳机使用说明(iOS版)',
+    description: '',
+    avatar: '/img/安卓_手机.png',
+    path: '/readme/android-c2'
+  },
   {
     title: '蓝牙翻译耳机使用说明',
     description: '',

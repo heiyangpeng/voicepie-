@@ -1,4 +1,4 @@
-# 有线通话翻译耳机在iOS上使用
+# 有线通话翻译耳机在iOS上使用(iOS版)
 
 ::: tip 💡本文为初次接触或对爱说派应用使用不熟悉的用户提供详细操作指南，让您轻松上手。
 
@@ -54,9 +54,11 @@
 :::
 
 <strong>
-<small>1. 首先开启蓝牙，再打开爱说派应用，如有权限对话框弹出请点击同意确定。<br></small>
-<small>2. 插入爱说派设备，稍等片刻，成功连接设备。<br></small>
-<small>3. 即可开始使用翻译功能，开始后画中画可自由滑动查看翻译文本。<br></small>
+<small>1. 首先开启手机蓝牙，打开爱说派应用，如有权限对话框弹出请点击同意确定。<br></small>
+<small>2. 插入爱说派设备，稍等片刻，提示成功连接设备。<br></small>
+<small>3. 成功进入应用后，可设置语种/音色、专业词库等功能。<br></small>
+<small>4. 在App主页点击开始，选择所需要的应用场景，即可开始使用翻译功能。<br></small>
+<small>5. 开始后画中画可自由滑动并查看翻译文本。<br></small>
 </strong>
 
 ![ios](https://bu.dusays.com/2024/12/25/676be3ee26529.png)
@@ -66,12 +68,12 @@
 ## 功能详解
 
 <DocCard :cards="[
-  {
-    title: '翻译模式',
-    description: '',
-    avatar: '/img/情景模式.png',
-    path: '/guide/modes'
-  },
+  // {
+  //   title: '翻译模式',
+  //   description: '',
+  //   avatar: '/img/情景模式.png',
+  //   path: '/guide/modes-c2'
+  // },
   {
     title: '翻译设置',
     description: '',
@@ -89,5 +91,11 @@
     description: '',
     avatar: '/img/其它.png',
     path: '/guide/other'
+  },
+  {
+    title: '常见问题',
+    description: '',
+    avatar: '/img/问题答疑.png',
+    path: '/help/preface'
   }
 ]" />

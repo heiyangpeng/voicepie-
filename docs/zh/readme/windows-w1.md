@@ -19,11 +19,11 @@
 
 ## 安装说明
 
-::: warning 需先插入voicepie耳机设备才可打开应用驱动包进行安装
+::: warning 需先插入voicepie耳机设备再打开应用驱动包进行安装
 
 :::
 
-### 应用保留
+<!-- ### 应用保留
 
 1. 应用下载完成时，按照下图指示保留应用安装包
 
@@ -35,7 +35,7 @@
 
 3. 点击仍然保留
 
-![](https://bu.dusays.com/2024/11/15/6736fab963dbd.webp)
+![](https://bu.dusays.com/2024/11/15/6736fab963dbd.webp) -->
 
 ### 安装步骤
 
@@ -70,10 +70,10 @@
 ## 使用说明
 
 <strong>
-<small>1. 电脑先插入<big><code>AI翻译棒（简称接收端）</code></big>，同时拿出蓝牙耳机佩戴上，耳机自动连接上<big><code>接收端</code></big>，<font style="color: red">无需进行电脑蓝牙连接耳机</font>，<br></small>
-<small>2. 稍等片刻，打开<big><code>爱说派APP</code></big>，如有权限对话框弹出请点击同意授权确定。<br></small>
-<small>3. 来到应用主页 [可在电脑右下角任务栏里点击爱说派开启]，可选择<big><code>翻译发音和翻译语种</code></big>。<br></small>
-<small>4. 选择<big><code>翻译模式</code></big>，点击<big><code>开始翻译</code></big>即可进行实时翻译。</small>
+<small>1. 电脑先插入AI翻译棒，同时拿出蓝牙耳机佩戴上，耳机自动连接上AI翻译棒，<font style="color: red">无需进行电脑蓝牙连接耳机</font>。<br></small>
+<small>2. 稍等片刻，打开爱说派APP，如有权限对话框弹出请点击同意授权确定。<br></small>
+<small>3. 来到应用主页(可在电脑右下角任务栏里点击爱说派开启)，可设置翻译发音和翻译语种等。<br></small>
+<small>4. 选择翻译模式，点击开始翻译即可进行实时翻译。</small>
 </strong>
 
 ## 功能图鉴
@@ -83,12 +83,12 @@
 ## 核心功能
 
 <DocCard :cards="[
-  {
-    title: '翻译模式',
-    description: '',
-    avatar: '/img/情景模式.png',
-    path: '/guide/modes'
-  },
+  // {
+  //   title: '翻译模式',
+  //   description: '',
+  //   avatar: '/img/情景模式.png',
+  //   path: '/guide/modes'
+  // },
   {
     title: '翻译设置',
     description: '',
@@ -106,5 +106,11 @@
     description: '',
     avatar: '/img/其它.png',
     path: '/guide/other'
+  },
+  {
+    title: '常见问题',
+    description: '',
+    avatar: '/img/问题答疑.png',
+    path: '/help/preface'
   }
 ]" />

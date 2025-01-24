@@ -1,8 +1,9 @@
-# Using TransBuds W1 on Windows
+# Using AI Dongle on Windows
 
-::: tip 💡This guide provides detailed step-by-step instructions for first-time users or those unfamiliar with installing apps on their devices.
+::: tip 💡 This guide provides detailed step-by-step instructions for first-time users or those unfamiliar with installing apps on their devices.
 
-❗️<font style="color: red">Only supports Windows 10/11, good network connection required before use.</font>
+❗️<font style="color: red">Only supports Windows 10/11, good network connection required before use</font>
+
 :::
 
 ## Download and Installation
@@ -18,26 +19,56 @@
   </svg>
 </p><strong><small>Click to <a href="https://kikago.tech/bridge/download">download</a> the app installation package</small></strong>
 
+## Pairing Bluetooth Devices
+
+::: warning Dongle Button Instructions
+
+1. Press and hold for 2 seconds to connect to a new Bluetooth device.<font style="color: red">(Ensure the Bluetooth device is in pairing mode)</font>
+
+2. Short press to reconnect to the last paired device.<font style="color: red">(The dongle will automatically reconnect to previously paired devices; if it doesn't, short press once more)</font>
+
+### Dongle Light Indicators
+
+1. Flashing light: Not connected to a Bluetooth device
+2. Steady light: Successfully connected to a Bluetooth device
+
+:::
+
+1. Insert the receiver into your phone or PC (you can use a USB adapter for PC connections).
+
+![](https://bu.dusays.com/2024/11/18/673b06df9370b.png)
+
+2. Once inserted, the receiver's LED will flash.
+   Long press the receiver's button for 2 seconds to pair with a new Bluetooth device (e.g., Bluetooth earphones, speakers).
+
+![](https://bu.dusays.com/2024/11/18/673b06dfa8d35.png)
+
+3. When the LED changes to a steady light, the connection is successful, and the Bluetooth device will confirm the pairing.
+
+![](https://bu.dusays.com/2024/11/18/673b075392eb6.png)
+
+4. Open the voicepie app on your PC or phone. Once the receiver is recognized, configure the app for real-time translation functionality.
+
+![](https://bu.dusays.com/2024/11/18/673b06de69a63.png)
+
 ## Installation Instructions
 
-::: warning Insert the AI Translator Stick before opening the driver installation package.
+::: warning Before Installation
+
+Insert the Voicepie earphone device before opening the driver installation package. (Ensure Bluetooth pairing with the AI Dongle is completed beforehand)
 
 :::
 
 <!--
-### Allow Installation
+### Keeping the Installer
+1. When the download is complete, **save the installation package** as instructed below.
+   ![](https://bu.dusays.com/2024/11/15/6736fab95af2c.webp)
 
-1. After downloading, save the installation file as indicated below:
+2. Click **"Show more details"**.
+   ![](https://bu.dusays.com/2024/11/15/6736fab95f949.webp)
 
-![](https://bu.dusays.com/2024/11/15/6736fab95af2c.webp)
-
-2. Click Show More Details:
-
-![](https://bu.dusays.com/2024/11/15/6736fab95f949.webp)
-
-3. Click Keep Anyway:
-
-![](https://bu.dusays.com/2024/11/15/6736fab963dbd.webp) -->
+3. Select **"Keep anyway"** to proceed.
+   ![](https://bu.dusays.com/2024/11/15/6736fab963dbd.webp) -->
 
 ### Installation Steps
 
@@ -74,15 +105,19 @@
 ## User Guide
 
 <strong>
-<small>1. Insert the AI Translator Stick into your computer and put on the Bluetooth headphones. The headphones will automatically connect to the Translator Stick, <font style="color: red">no need to pair the headphones with the computer's Bluetooth</font>.<br></small>
-<small>2. Wait for a moment, then open the Voicepie app. If a permission dialog appears, click Agree to authorize.<br></small>
-<small>3. Navigate to the app homepage (accessible via the Voicepie icon in the system tray at the bottom-right of your computer). Here, you can configure translation voice, language, and other settings.<br></small>
-<small>4. Select the desired translation mode and click Start Translation to enable real-time translation.</small>
+<small>
+1. Insert the AI Dongle into your computer and ensure your pre-paired Bluetooth device (e.g., headphones) automatically connects to the AI Dongle. Manual Bluetooth connection on the computer is unnecessary.<br>
+2. Open the voicepie app. Grant necessary permissions if prompted.<br>
+3. Access the app's homepage (accessible from the system tray in the bottom-right corner of your screen). Adjust translation voice, language, and other features.<br>
+4. Select the translation scenario and click "Start Translation" to activate real-time translation.  
+</small>
 </strong>
 
 ## App Interface
 
 ![](https://bu.dusays.com/2025/01/24/679309ece7658.png)
+
+## Detailed Features
 
 <DocCard :cards="[
   {
