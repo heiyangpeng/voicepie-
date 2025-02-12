@@ -1,12 +1,27 @@
 # Required Permissions
 
-> [!IMPORTANT] Notice of authority
-> New users must enable all permissions in the app settings for full functionality.
+> [!IMPORTANT] New users must enable all permissions in the app settings for full functionality.
 
 ## Android Permissions
 
-![安卓](https://bu.dusays.com/2024/10/29/672090734744c.png)
+### First step
+
+![安卓](https://bu.dusays.com/2025/02/12/67ac47f135f96.png)
+
+### Second step
+
+![安卓](https://bu.dusays.com/2025/02/12/67ac47f00fb76.png)
+
+### Third step
+
+![安卓](https://bu.dusays.com/2025/02/12/67ac47f009aee.png)
 
 ## iOS Permissions
 
-![IOS](https://bu.dusays.com/2024/10/29/6720906e4adbf.png)
+### First step
+
+![IOS](https://bu.dusays.com/2025/02/12/67ac47f2eb392.png)
+
+### Second step
+
+![IOS](https://bu.dusays.com/2025/02/12/67ac47eff2481.png)

@@ -6,6 +6,8 @@
 
 :::
 
+![ios](https://bu.dusays.com/2025/02/12/67ac78a2c7d5a.png)
+
 ## Download and Install
 
 <p style="display: inline-block; vertical-align: middle; margin-right: 5px;">
@@ -54,7 +56,7 @@
     title: 'Translation Mode',
     description: '',
     avatar: '/img/情景模式.png',
-    path: '/en/guide/modes'
+    path: '/en/guide/modes-macos'
   },
   {
     title: 'Broadcast Settings',

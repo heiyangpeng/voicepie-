@@ -48,12 +48,12 @@
 ![](https://bu.dusays.com/2024/11/14/6735d13decbdc.png)
 
 <DocCard :cards="[
-  // {
-  //   title: '翻译模式',
-  //   description: '',
-  //   avatar: '/img/情景模式.png',
-  //   path: '/guide/modes'
-  // },
+  {
+    title: '翻译模式',
+    description: '',
+    avatar: '/img/情景模式.png',
+    path: '/guide/modes-macos'
+  },
   {
     title: '翻译设置',
     description: '',

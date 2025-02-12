@@ -92,7 +92,7 @@ If a permissions prompt appears, ensure to grant the necessary authorizations.
     title: 'Translation Mode',
     description: '',
     avatar: '/img/情景模式.png',
-    path: '/en/guide/modes'
+    path: '/en/guide/modes-macos'
   },
   {
     title: 'Broadcast Settings',

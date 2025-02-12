@@ -1,9 +1,8 @@
 # Huawei/Honor settings
 
-:::warning
-On Huawei Honor phones, output device won’t auto-switch in Face-to-Face mode with VoicePie earphones.
+:::warning 1.On Huawei Honor phones, output device won't auto-switch in Face-to-Face mode with voicepie earphones.
 
-Swipe down the control center > Audio control > Select “This Device” to enable speaker output.
+2.Swipe down the control center > Audio control > Select "This Device" to enable speaker output.
 :::
 
 ---

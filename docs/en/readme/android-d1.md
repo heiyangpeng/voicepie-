@@ -60,7 +60,7 @@ Dongle Indicator Lights:
 
 ## User Guide
 
-::: warning Grant <a href="/help/competence">Necessary Permissions</a>
+::: warning Grant <a href="/en/help/competence">Necessary Permissions</a>
 
 Ensure the Bluetooth device is successfully paired with the AI Dongle before proceeding.
 :::
@@ -81,7 +81,7 @@ Ensure the Bluetooth device is successfully paired with the AI Dongle before pro
     title: 'Translation Mode',
     description: '',
     avatar: '/img/情景模式.png',
-    path: '/en/guide/modes'
+    path: '/en/guide/modes-d1'
   },
   {
     title: 'Broadcast Settings',

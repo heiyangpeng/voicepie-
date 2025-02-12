@@ -4,7 +4,7 @@
 
 :::
 
-![ios](https://bu.dusays.com/2024/12/25/676be5264464b.png)
+![ios](https://bu.dusays.com/2025/02/12/67ac78a16a9b9.png)
 
 ## Download and Install
 
@@ -28,7 +28,7 @@
 
 ## User Guide
 
-::: warning Grant <a href="/help/competence">Necessary Permissions</a>
+::: warning Grant <a href="/en/help/competence#ios-permissions">Necessary Permissions</a>
 
 :::
 
@@ -40,9 +40,9 @@
 <small>5. After starting, you can freely move and view the translation text through the picture-in-picture interface.<br></small>
 </strong>
 
-![ios](https://bu.dusays.com/2024/12/25/676be3ee26529.png)
+![ios](https://bu.dusays.com/2025/02/12/67ac74e374d42.jpg)
 
-![ios](https://bu.dusays.com/2024/12/25/676be3eeb9022.png)
+![ios](https://bu.dusays.com/2025/02/12/67ac73c1c75f1.png)
 
 ## Detailed Features
 
@@ -51,7 +51,7 @@
     title: 'Translation Mode',
     description: '',
     avatar: '/img/情景模式.png',
-    path: '/en/guide/modes'
+    path: '/en/guide/modes-ios'
   },
   {
     title: 'Broadcast Settings',

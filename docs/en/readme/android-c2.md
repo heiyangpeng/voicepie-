@@ -6,6 +6,8 @@
 
 :::
 
+![](https://bu.dusays.com/2025/02/12/67ac78a1a53ac.png)
+
 ## Download and Install
 
 <!-- 按钮 -->
@@ -29,7 +31,7 @@
 
 ## User Guide
 
-::: warning Please grant and approve necessary permissions when opening the app.
+::: warning Please grant and approve <a href="/en/help/competence">necessary permissions</a> when opening the app.
 :::
 
 <strong>
@@ -48,7 +50,7 @@
     title: 'Translation Mode',
     description: '',
     avatar: '/img/情景模式.png',
-    path: '/en/guide/modes'
+    path: '/en/guide/modes-c2'
   },
   {
     title: 'Broadcast Settings',
@@ -67,5 +69,11 @@
     description: '',
     avatar: '/img/其它.png',
     path: '/en/guide/other'
+  },
+  {
+    title: 'Help&Support',
+    description: '',
+    avatar: '/img/问题答疑.png',
+    path: '/en/help/preface'
   }
 ]" />

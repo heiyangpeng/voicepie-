@@ -83,12 +83,12 @@
 ## 核心功能
 
 <DocCard :cards="[
-  // {
-  //   title: '翻译模式',
-  //   description: '',
-  //   avatar: '/img/情景模式.png',
-  //   path: '/guide/modes'
-  // },
+  {
+    title: '翻译模式',
+    description: '',
+    avatar: '/img/情景模式.png',
+    path: '/guide/modes-windows'
+  },
   {
     title: '翻译设置',
     description: '',

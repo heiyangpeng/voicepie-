@@ -66,7 +66,7 @@ Begin using the real-time translation feature for seamless communication.
     title: 'Translation Mode',
     description: '',
     avatar: '/img/情景模式.png',
-    path: '/en/guide/modes'
+    path: '/en/guide/modes-macos'
   },
   {
     title: 'Broadcast Settings',

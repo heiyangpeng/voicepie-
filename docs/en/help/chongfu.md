@@ -1,7 +1,6 @@
 # Duplicate translation issue
 
-::: warning
-Some mobile devices with sound effects or specific chipsets may impact translation quality.
+::: warning Some mobile devices with sound effects or specific chipsets may impact translation quality.
 
 Refer to the solutions below.
 :::
@@ -13,8 +12,7 @@ Disable immersive sound or switch to standard sound settings.
 
 ## Chipset-Specific Issue
 
-::: danger
-Some chipsets may cause repeated translation during voice calls (audio may be duplicated).
+::: danger Some chipsets may cause repeated translation during voice calls (audio may be duplicated).
 
 - In the playback settings, disable translation playback for the other party to view only the translated text.
   :::

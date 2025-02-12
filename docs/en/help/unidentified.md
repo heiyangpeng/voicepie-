@@ -1,9 +1,8 @@
 # Earphones not detected
 
-:::warning
-If no popup, no response, or unusable, some phones require OTG to be enabled.
+:::warning If no popup, no response, or unusable, some phones require OTG to be enabled.
 
-Unplug earphones > Go to Settings > Search “OTG connection” > Enable OTG > Reinsert earphones.
+Unplug earphones > Go to Settings > Search"OTG connection"> Enable OTG > Reinsert earphones.
 :::
 
 ---

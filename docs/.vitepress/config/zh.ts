@@ -71,19 +71,19 @@ function nav(): DefaultTheme.NavItem[] {
 
       link: '/readme/collection',
       activeMatch: '/readme/'
-    },
-    {
-      text: '更新日志',
-      items: [
-        { text: 'Android', link: '/releases/android' },
-        { text: 'Windows', link: '/releases/windows' },
-        { text: 'macOS', link: '/releases/macos' },
-
-        { text: 'IOS', link: '/releases/ios' }
-      ]
-      // link: '/guide/what-is-voicepie',
-      // activeMatch: '/guide/'
     }
+    // {
+    //   text: '更新日志',
+    //   items: [
+    //     { text: 'Android', link: '/releases/android' },
+    //     { text: 'Windows', link: '/releases/windows' },
+    //     { text: 'macOS', link: '/releases/macos' },
+
+    //     { text: 'IOS', link: '/releases/ios' }
+    //   ]
+    //   // link: '/guide/what-is-voicepie',
+    //   // activeMatch: '/guide/'
+    // }
 
     // {
     //   text: pkg.version,

@@ -43,7 +43,7 @@
 
 ## Usage Guide
 
-::: warning Grant <a href="/help/competence">Necessary Permissions</a>
+::: warning Grant <a href="/en/help/competence">Necessary Permissions</a>
 
 :::
 
@@ -63,7 +63,7 @@
     title: 'Translation Mode',
     description: '',
     avatar: '/img/情景模式.png',
-    path: '/en/guide/modes'
+    path: '/en/guide/modes-m1'
   },
   {
     title: 'Broadcast Settings',

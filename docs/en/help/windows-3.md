@@ -4,25 +4,25 @@
 
 Press <code>Windows</code> key, open <code>Settings</code>
 
-![](https://bu.dusays.com/2024/11/07/672c313031d69.webp)
+![](https://bu.dusays.com/2025/02/07/67a575bedbfb1.jpg)
 
 ## Open Application
 
-![](https://bu.dusays.com/2024/11/07/672c312ecd8c3.webp)
+![](https://bu.dusays.com/2025/02/07/67a575bdce7b7.jpg)
 
 ## Uninstall voicepie_Setup
 
 ::: warning Voicepie_Setup may have numbers after it, ignore them
 :::
 
-![](https://bu.dusays.com/2024/11/07/672c312ef2f6a.webp)
+![](https://bu.dusays.com/2025/02/07/67a575c00ac32.jpg)
 
 ## Open Device Manager
 
 - Press <code>Windows</code> + <code>X</code>
 - Click <code>Device Manager</code>
 
-![](https://bu.dusays.com/2024/11/07/672c312ed3e2b.webp)
+![](https://bu.dusays.com/2025/02/07/67a575bd46b93.jpg)
 
 ## Find and Right-click kikaGO.AI ENC Headphon
 
@@ -30,16 +30,16 @@ Press <code>Windows</code> key, open <code>Settings</code>
 - Right-click <code>kikaGO.AI ENC Headphone</code>
 - Click Uninstall Device
 
-![](https://bu.dusays.com/2024/11/07/672c312eca41b.webp)
+![](https://bu.dusays.com/2025/02/07/67a575beeb3f6.jpg)
 
-![](https://bu.dusays.com/2024/11/07/672c312ec93d3.webp)
+![](https://bu.dusays.com/2025/02/07/67a575bf4374b.jpg)
 
 ## Uninstall kikaGO.AI ENC Headphone
 
 - Select <code>Delete the driver software for this device</code>
 - Click <code>Uninstall</code>
 
-![](https://bu.dusays.com/2024/11/07/672c312f4f106.webp)
+![](https://bu.dusays.com/2025/02/07/67a575be1eb0d.jpg)
 
 ## Verify Device Manager and Digital Signature
 
@@ -50,8 +50,8 @@ Press <code>Windows</code> key, open <code>Settings</code>
 ::: warning Note: If prompted to restart computer, save your files first
 :::
 
-![](https://bu.dusays.com/2024/11/09/672ee0024fae1.webp)
+![](https://bu.dusays.com/2025/02/07/67a5763ece5af.jpg)
 
-![](https://bu.dusays.com/2024/11/09/672ee00266f31.webp)
+![](https://bu.dusays.com/2025/02/07/67a575c0df3bb.jpg)
 
-![](https://bu.dusays.com/2024/11/09/672ee00246806.webp)
+![](https://bu.dusays.com/2025/02/07/67a575c09aab9.jpg)

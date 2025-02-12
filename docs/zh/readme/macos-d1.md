@@ -86,12 +86,12 @@ dongle灯光
 ## 功能详解
 
 <DocCard :cards="[
-  // {
-  //   title: '翻译模式',
-  //   description: '',
-  //   avatar: '/img/情景模式.png',
-  //   path: '/guide/modes'
-  // },
+  {
+    title: '翻译模式',
+    description: '',
+    avatar: '/img/情景模式.png',
+    path: '/guide/modes-macos'
+  },
   {
     title: '翻译设置',
     description: '',
