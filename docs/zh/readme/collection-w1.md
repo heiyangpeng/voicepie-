@@ -27,10 +27,6 @@
 import NotificationModal from '../../components/NotificationModal.vue'
 </script>
 
-<script setup>
-import NotificationModal from '../../components/NotificationModal.vue'
-</script>
-
 <NotificationModal
   title="✨定制您的专属翻译声音"
   image="/public/weixin.png">
