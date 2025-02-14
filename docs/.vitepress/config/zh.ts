@@ -62,15 +62,15 @@ function nav(): DefaultTheme.NavItem[] {
     //   activeMatch: '/reference/'
     // },
     {
-      text: '帮助与支持',
-      link: '/help/preface',
-      activeMatch: '/help/'
-    },
-    {
       text: '使用教程',
 
       link: '/readme/collection',
       activeMatch: '/readme/'
+    },
+    {
+      text: '帮助与支持',
+      link: '/help/preface',
+      activeMatch: '/help/'
     }
     // {
     //   text: '更新日志',
@@ -236,7 +236,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: '核心功能',
       collapsed: false,
       items: [
-        { text: '翻译模式', link: 'modes' },
+        { text: '翻译模式', link: 'modes-collection' },
         { text: '播报设置', link: 'settings' },
         { text: '语种/音色选择', link: 'language' },
         { text: '其它功能', link: 'other' }

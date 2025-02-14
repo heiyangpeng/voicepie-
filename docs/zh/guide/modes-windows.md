@@ -50,7 +50,7 @@
 
 :::
 
-![影音模式](https://bu.dusays.com/2025/02/11/67aac4d80878f.png)
+![影音模式](https://bu.dusays.com/2025/02/11/67aacb98a10d7.png)
 
 ## 直播模式
 
@@ -72,7 +72,7 @@
 
 :::
 
-![看视频/直播](https://bu.dusays.com/2025/02/11/67aacb98a10d7.png)
+![影音模式](https://bu.dusays.com/2025/02/11/67aac4d80878f.png)
 
 ## 现场听译
 

@@ -1,18 +1,18 @@
 # 应用场景详解
 
-::: warning <span class="circle-badge">1</span> 使用前，请确保耳机与手机/设备连接正常，并在 App 内开启实时翻译功能。
+::: warning <span class="circle-badge">1</span> 使用前，请确保翻译设备与电脑连接正常，并在 App 内开启实时翻译功能。
 
 <span class="circle-badge">2</span> 不同场景下，可在 App 里切换目标语言或调整翻译模式，以获得更精准的效果。
 
 :::
 
-## 通话模式
+## 通话互译
 
 ::: tip ❓如何使用？
 
 1️⃣ 连接设备：确保设备插入电脑。
 
-2️⃣ 开启翻译模式：在 App 选择"通话模式"功能。
+2️⃣ 开启翻译模式：在 App 选择"通话互译"功能。
 
 3️⃣ 实时翻译：你的语音会被翻译并播放给对方，同时对方的语音也会同步翻译播放给你。
 
@@ -28,7 +28,7 @@
 
 :::
 
-![打电话](https://bu.dusays.com/2025/02/08/67a706a651f27.png)
+![通话互译](https://bu.dusays.com/2025/02/14/67aefc316f9e0.png)
 
 ## 影音模式
 
@@ -50,7 +50,7 @@
 
 :::
 
-![线上会议](https://bu.dusays.com/2025/02/08/67a706a240312.png)
+![影音模式](https://bu.dusays.com/2025/02/14/67aefc3168f26.png)
 
 ## 直播模式
 
@@ -72,7 +72,7 @@
 
 :::
 
-![看视频/直播](https://bu.dusays.com/2025/02/08/67a706a52054a.png)
+![直播模式](https://bu.dusays.com/2025/02/14/67aefc2f363ee.png)
 
 ## 现场听译
 
@@ -94,4 +94,4 @@
 
 :::
 
-![翻译周围外语给我听](https://bu.dusays.com/2025/02/08/67a706a10684b.png)
+![现场听译](https://bu.dusays.com/2025/02/14/67aefc2ee8f75.png)

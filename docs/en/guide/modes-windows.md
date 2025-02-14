@@ -28,15 +28,15 @@
 
 :::
 
-![Making a Call](https://bu.dusays.com/2025/02/11/67aac4d4bdc7c.png)
+![Making a Call](https://bu.dusays.com/2025/02/14/67aec17484a76.png)
 
-## Media Mode
+## Video Mode
 
 ::: tip ❓ How to Use?
 
 1️⃣ **Connect the device:** Ensure the device is inserted into the computer.
 
-2️⃣ **Select translation mode:** Choose the "Media Mode" feature in the app.
+2️⃣ **Select translation mode:** Choose the "Video Mode" feature in the app.
 
 3️⃣ **Real-time translation:** The translation device automatically plays translated content while retaining the original background audio.
 
@@ -50,15 +50,15 @@
 
 :::
 
-![Media Mode](https://bu.dusays.com/2025/02/11/67aac4d80878f.png)
+![Video Mode](https://bu.dusays.com/2025/02/14/67aec176b3d51.png)
 
-## Live Streaming Mode
+## Live Mode
 
 ::: tip ❓ How to Use?
 
 1️⃣ **Connect the device:** Ensure the device is inserted into the computer.
 
-2️⃣ **Enable translation mode:** Select the "Live Streaming Mode" feature in the app.
+2️⃣ **Enable translation mode:** Select the "Live Mode" feature in the app.
 
 3️⃣ **Real-time translation:** Your voice will be translated for your audience in real-time, with support for multiple languages.
 
@@ -72,15 +72,15 @@
 
 :::
 
-![Live Streaming](https://bu.dusays.com/2025/02/11/67aacb98a10d7.png)
+![Live Mode](https://bu.dusays.com/2025/02/14/67aec176b3d51.png)
 
-## Live Interpretation
+## Meet Mode
 
 ::: tip ❓ How to Use?
 
 1️⃣ **Connect the device:** Ensure the device is inserted into the computer.
 
-2️⃣ **Enable translation mode:** Select the "Live Interpretation" feature in the app.
+2️⃣ **Enable translation mode:** Select the "Meet Mode" feature in the app.
 
 3️⃣ **Real-time translation:** The translation device automatically captures surrounding foreign language conversations and plays the translated results.
 
@@ -94,4 +94,4 @@
 
 :::
 
-![Live Interpretation](https://bu.dusays.com/2025/02/11/67aac4d5797fb.png)
+![Meet Mode](https://bu.dusays.com/2025/02/14/67aec1755b7ab.png)

@@ -1,4 +1,4 @@
-# Detailed Use Cases for Wired Translation Earbuds
+# Detailed Use Cases for AI Dongle
 
 ::: warning <span class="circle-badge">1</span> Before use, ensure that the translation device is properly connected to your phone and that real-time translation is enabled in the app.
 

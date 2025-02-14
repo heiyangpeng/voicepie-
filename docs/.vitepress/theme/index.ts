@@ -15,6 +15,7 @@ import BilibiliPlayer from '../../components/BilibiliPlayer.vue'
 import CustomUI from '../../components/CustomUI.vue'
 import DocCard from '../../components/DocCard.vue'
 import VideoPlayer from '../../components/VideoPlayer.vue'
+import NotificationModal from '../../components/NotificationModal.vue'
 
 import './custom-font.css'
 import './style.css'
@@ -27,7 +28,7 @@ export default {
     app.component('CustomUI', CustomUI)
     app.component('DocCard', DocCard)
     app.component('VideoPlayer', VideoPlayer)
-
+    app.component('NotificationModal', NotificationModal)
     // 添加字体预加载
     if (typeof window !== 'undefined') {
       window.addEventListener('load', () => {

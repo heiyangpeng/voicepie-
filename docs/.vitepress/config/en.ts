@@ -201,7 +201,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: 'Detailed Features',
       collapsed: false,
       items: [
-        { text: 'Translation Mode', link: 'modes' },
+        { text: 'Translation Mode', link: 'modes-collection' },
         { text: 'Broadcast Settings', link: 'settings' },
         { text: 'Language/Voice Selection', link: 'language' },
         { text: 'Other Features', link: 'other' }
