@@ -12,12 +12,14 @@
           </button>
 
           <div class="modal-content">
-            <div v-if="image" class="modal-image">
-              <img :src="image" :alt="title" />
+            <div v-if="image?.trim()" class="modal-image">
+              <img :src="image?.trim()" :alt="title?.trim()" />
             </div>
 
             <div class="modal-text">
-              <h2 v-if="title" class="modal-title">{{ title }}</h2>
+              <h2 v-if="title?.trim()" class="modal-title">
+                {{ title?.trim() }}
+              </h2>
 
               <div class="modal-body">
                 <slot></slot>
@@ -36,11 +38,13 @@ import { ref, onMounted } from 'vue'
 const props = defineProps({
   title: {
     type: String,
-    default: ''
+    default: '',
+    transform: (value) => value?.trim() || ''
   },
   image: {
     type: String,
-    default: ''
+    default: '',
+    transform: (value) => value?.trim() || ''
   },
   closeOnOutsideClick: {
     type: Boolean,
